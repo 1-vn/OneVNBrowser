@@ -57,7 +57,7 @@ class StrToIntListPreference(context: Context, attrs: AttributeSet) : DialogPref
         value = defaultValue as? Int ?: getPersistedInt(value)
     }
 
-    class PreferenceDialog : YuzuPreferenceDialog() {
+    class PreferenceDialog : OneVNPreferenceDialog() {
 
         override fun onPrepareDialogBuilder(builder: androidx.appcompat.app.AlertDialog.Builder?) {
             val preference = preference as StrToIntListPreference
@@ -82,7 +82,7 @@ class StrToIntListPreference(context: Context, attrs: AttributeSet) : DialogPref
 
         companion object {
 
-            fun newInstance(preference: Preference): YuzuPreferenceDialog {
+            fun newInstance(preference: Preference): OneVNPreferenceDialog {
                 return newInstance(PreferenceDialog(), preference)
             }
         }

@@ -1,6 +1,6 @@
 (function () {
     var enable = %s;
-    var id = 'yuzubrowser_invert_mode';
+    var id = 'onevnbrowser_invert_mode';
     var style = document.getElementById(id);
 
     if ((enable && style != null) || (!enable && style == null)) {

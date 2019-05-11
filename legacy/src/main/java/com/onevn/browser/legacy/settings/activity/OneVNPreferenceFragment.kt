@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,9 +22,9 @@ import com.onevn.browser.legacy.settings.preference.SearchUrlPreference
 import com.onevn.browser.legacy.settings.preference.SlowRenderingPreference
 import com.onevn.browser.legacy.settings.preference.WebTextSizePreference
 import com.onevn.browser.ui.preference.*
-import com.onevn.browser.ui.settings.fragment.YuzuBasePreferenceFragment
+import com.onevn.browser.ui.settings.fragment.OneVNBasePreferenceFragment
 
-abstract class YuzuPreferenceFragment : YuzuBasePreferenceFragment() {
+abstract class OneVNPreferenceFragment : OneVNBasePreferenceFragment() {
 
     override fun onDisplayPreferenceDialog(preference: Preference) {
         val fragmentManager = fragmentManager ?: return

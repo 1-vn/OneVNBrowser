@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,13 +19,13 @@ package com.onevn.browser.legacy.gesture.multiFinger
 import android.content.Context
 import android.os.Bundle
 import com.onevn.browser.legacy.R
-import com.onevn.browser.legacy.settings.activity.YuzuPreferenceFragment
+import com.onevn.browser.legacy.settings.activity.OneVNPreferenceFragment
 
-class MfsFragment : YuzuPreferenceFragment() {
+class MfsFragment : OneVNPreferenceFragment() {
 
     private var listener: OnMfsFragmentListener? = null
 
-    override fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?) {
+    override fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?) {
         addPreferencesFromResource(R.xml.pref_multi_finger_settings)
 
         retainInstance = true

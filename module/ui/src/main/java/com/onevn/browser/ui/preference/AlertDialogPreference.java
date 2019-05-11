@@ -29,9 +29,9 @@ public class AlertDialogPreference extends DialogPreference {
         mPositiveButtonListener = l;
     }
 
-    public static class PreferenceDialog extends YuzuPreferenceDialog {
+    public static class PreferenceDialog extends OneVNPreferenceDialog {
 
-        public static YuzuPreferenceDialog newInstance(Preference preference) {
+        public static OneVNPreferenceDialog newInstance(Preference preference) {
             return newInstance(new PreferenceDialog(), preference);
         }
 

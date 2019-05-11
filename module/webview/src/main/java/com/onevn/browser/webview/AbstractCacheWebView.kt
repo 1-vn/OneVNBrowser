@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -222,7 +222,7 @@ internal abstract class AbstractCacheWebView(context: Context) : FrameLayout(con
     override val progress: Int
         get() = currentPage.webView.progress
 
-    override val webSettings: YuzuWebSettings
+    override val webSettings: OneVNWebSettings
         get() = currentPage.webView.webSettings
 
     override val title: String?

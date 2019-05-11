@@ -1,6 +1,6 @@
-# Yuzu Browser Privacy Policy
+# OneVN Browser Privacy Policy
 
-This privacy policy statement is created to clearly state the developer's policies with respect to data collection, usage, and security. These policies are stated to ensure you know what personal details you may or may not disclose when the software is being utilized, and the choices you have associated with that data. If you decide to continue using Yuzu Browser, it means you accept to adhere and abide by all the terms and conditions stated by the developer in this policy. 
+This privacy policy statement is created to clearly state the developer's policies with respect to data collection, usage, and security. These policies are stated to ensure you know what personal details you may or may not disclose when the software is being utilized, and the choices you have associated with that data. If you decide to continue using OneVN Browser, it means you accept to adhere and abide by all the terms and conditions stated by the developer in this policy.
 Kindly note that this Privacy Policy applies only to this software. The developer would not be held responsible for the content or privacy practices on any third party app not operated by the developer to which this software links, or that links to this software. Therefore, it is advisable to read up the privacy policies of third party services that may be linked to this software.
 
 ---
@@ -10,7 +10,7 @@ Kindly note that this Privacy Policy applies only to this software. The develope
 For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, and the enablement of certain device permissions. These permissions need to be enabled for the software to work properly on the device on which the software's services are intended. The information that the developer requests with regards to these permissions will be retained on your device and is not collected by the developer in any way. 
 
 
-Yuzu browser need permissions below;
+OneVN browser need permissions below;
 
 - Camera
 - Location
@@ -51,13 +51,13 @@ When some actions are performed, some data(usage data) may be collected by the s
 
 ## Crash reports sending
 
-Yuzu Browser is stable and works fine but you may still experience few errors and crashes. The information about these crashes is important to us so the issues can be fixed immediately and the software is running efficiently again. Although the developer is able to get reports when the app crashes, you can also speed up the process by informing the developer. If you encounter a bug during the use of this software, please open an [issue](https://github.com/hazuki0x0/YuzuBrowser/issues/new) on GitHub and it will be fixed in due time. When submitting a crash report, please provide a logcat to help the developer pinpoint the cause of the crash quickly and fix it accordingly. 
+OneVN Browser is stable and works fine but you may still experience few errors and crashes. The information about these crashes is important to us so the issues can be fixed immediately and the software is running efficiently again. Although the developer is able to get reports when the app crashes, you can also speed up the process by informing the developer. If you encounter a bug during the use of this software, please open an [issue](https://github.com/hazuki0x0/OneVNBrowser/issues/new) on GitHub and it will be fixed in due time. When submitting a crash report, please provide a logcat to help the developer pinpoint the cause of the crash quickly and fix it accordingly.
 
 ---
 
 ## Service Providers
 
-Yuzu Browser depends on the services of third-party services to facilitate its operations and to perform service-related services or to assist in analyzing how the services of the software are used.
+OneVN Browser depends on the services of third-party services to facilitate its operations and to perform service-related services or to assist in analyzing how the services of the software are used.
 These third-party tools may have access to your Personal Data only to perform these tasks on the developer's behalf and are obligated not to disclose or use it for any other purpose.
 
 Link to the privacy policy of third party service providers used by the app;
@@ -75,7 +75,7 @@ With these third-party libraries contained in the software, your information, in
 
 ## Links To Other Sites
 
-Yuzu Browser contains links to other services that are not directly operated by the developer. If you click on a third party library webpage or license URL, you will be directed to that third party's site.
+OneVN Browser contains links to other services that are not directly operated by the developer. If you click on a third party library webpage or license URL, you will be directed to that third party's site.
 The developer has no control over and assumes no responsibility for the content, privacy policies or practices of any third party sites or services.
 There are also links within the app that redirects you to the project's repository on Github.
 
@@ -94,12 +94,12 @@ It is advisable to check this policy periodically for any changes. Minor changes
 
 ## Disclaimer
 
-Yuzu browser is created with the intention of providing a more efficient way of surfing the internet. There is no security threat associated with the operations and utilization of Yuzu Browser. You may, however, decide to surf through websites that are forbidden in your country or, locale and this may lead to legal cases. The developer will not be held accountable for how you decide to use this software and for contents you decide to browse using the software. 
+OneVN browser is created with the intention of providing a more efficient way of surfing the internet. There is no security threat associated with the operations and utilization of OneVN Browser. You may, however, decide to surf through websites that are forbidden in your country or, locale and this may lead to legal cases. The developer will not be held accountable for how you decide to use this software and for contents you decide to browse using the software.
 
 ---
 
 
 ## Contact
 
-Contributions to this project are welcomed. Contributions, suggestions or bug reports and fixes can be made by opening an issue or creating pull requests. Read the contributor's guidelines [here](https://github.com/hazuki0x0/YuzuBrowser/blob/dev/README.md#contributing) to get started.
-If you wish to contact the developer directly to share an idea, to request a feature or to make further inquiries about the functionalities and operations of the Yuzu Browser software or, you have any questions regarding this Privacy Policy or, the practices of this software, please contact the developer by opening an [issue](https://github.com/hazuki0x0/YuzuBrowser/issues/new) on Github.
+Contributions to this project are welcomed. Contributions, suggestions or bug reports and fixes can be made by opening an issue or creating pull requests. Read the contributor's guidelines [here](https://github.com/hazuki0x0/OneVNBrowser/blob/dev/README.md#contributing) to get started.
+If you wish to contact the developer directly to share an idea, to request a feature or to make further inquiries about the functionalities and operations of the OneVN Browser software or, you have any questions regarding this Privacy Policy or, the practices of this software, please contact the developer by opening an [issue](https://github.com/hazuki0x0/OneVNBrowser/issues/new) on Github.

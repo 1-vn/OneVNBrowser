@@ -23,7 +23,7 @@ import androidx.annotation.Nullable;
 import com.onevn.browser.legacy.R;
 import com.onevn.browser.legacy.speeddial.view.SpeedDialSettingActivity;
 
-public class SpeeddialFragment extends YuzuPreferenceFragment {
+public class SpeeddialFragment extends OneVNPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class SpeeddialFragment extends YuzuPreferenceFragment {
     }
 
     @Override
-    public void onCreateYuzuPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
+    public void onCreateOneVNPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.pref_speeddial);
 
         findPreference("edit_speeddial").setOnPreferenceClickListener(preference -> {

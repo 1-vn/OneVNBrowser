@@ -1,7 +1,7 @@
 {
   "title": "Einstellungen der Benutzeroberfläche",
   "theme": "Design-Einstellungen",
-  "theme_info": "Sie können das integrierte und Ihr eigenes Design wählen<br>Sie können auch das Design des Mikan-Browsers verwenden<br>Das benutzerdefinierte Design befindet sich im internen Speicher<br>Beispiel (Bitte entsprechende Änderungen vornehmen):<code>/sdcard/YuzuBrowser/theme/**theme name**/theme.json</code><br>Bitte entsprechend so installieren, dass es für den Browser zugriffsfähig ist.",
+  "theme_info": "Sie können das integrierte und Ihr eigenes Design wählen<br>Sie können auch das Design des Mikan-Browsers verwenden<br>Das benutzerdefinierte Design befindet sich im internen Speicher<br>Beispiel (Bitte entsprechende Änderungen vornehmen):<code>/sdcard/OneVNBrowser/theme/**theme name**/theme.json</code><br>Bitte entsprechend so installieren, dass es für den Browser zugriffsfähig ist.",
   "toolbar": "Einstellungen der Symbolleiste",
   "font_size": "Einstellungen der Schriftgröße",
   "font_size_info": "Sie können die Schriftgröße von Lesezeichen, Verlauf, Menü, Menü und der Später-Lesen-Liste ändern.",

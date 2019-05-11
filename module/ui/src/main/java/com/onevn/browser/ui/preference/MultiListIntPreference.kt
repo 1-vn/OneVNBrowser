@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -55,7 +55,7 @@ class MultiListIntPreference(context: Context, attrs: AttributeSet) : DialogPref
         setValue(getPersistedInt(defaultValue as? Int ?: ArrayUtils.getBitsInt(mValue)))
     }
 
-    class PrefernceDialog : YuzuPreferenceDialog() {
+    class PrefernceDialog : OneVNPreferenceDialog() {
 
         override fun onPrepareDialogBuilder(builder: androidx.appcompat.app.AlertDialog.Builder?) {
             val pref = getParentPreference<MultiListIntPreference>()
@@ -78,7 +78,7 @@ class MultiListIntPreference(context: Context, attrs: AttributeSet) : DialogPref
 
         companion object {
 
-            fun newInstance(preference: Preference): YuzuPreferenceDialog {
+            fun newInstance(preference: Preference): OneVNPreferenceDialog {
                 return newInstance(PrefernceDialog(), preference)
             }
         }

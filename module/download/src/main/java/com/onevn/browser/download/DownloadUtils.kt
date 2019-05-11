@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -97,7 +97,7 @@ fun Context.getBlobDownloadJavaScript(url: String, secretKey: String, type: Int 
     return "var xhr=new XMLHttpRequest;xhr.open('GET','$url',!0),xhr." +
             "responseType='blob',xhr.onload=function(){if(200==this.status){var e=this.re" +
             "sponse,n=new FileReader;n.onloadend=function(){base64data=n.result,window.lo" +
-            "cation.href='yuzu:download-file/$secretKey&$type&'+encodeURIComponent(base64" +
+            "cation.href='onevn:download-file/$secretKey&$type&'+encodeURIComponent(base64" +
             "data)},n.readAsDataURL(e)}},xhr.onerror=function(){alert('" +
             "${getString(R.string.js_download_cross_origin)}')},xhr.send();"
 }

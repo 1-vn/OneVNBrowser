@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,14 +21,14 @@ import android.os.Bundle
 import android.view.MenuItem
 import com.onevn.browser.adblock.R
 import com.onevn.browser.adblock.ui.abp.AbpActivity
-import com.onevn.browser.ui.settings.fragment.YuzuBasePreferenceFragment
+import com.onevn.browser.ui.settings.fragment.OneVNBasePreferenceFragment
 import org.jetbrains.anko.startActivity
 
-class AdBlockMainFragment : YuzuBasePreferenceFragment() {
+class AdBlockMainFragment : OneVNBasePreferenceFragment() {
 
     private var listener: OnAdBlockMainListener? = null
 
-    override fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?) {
+    override fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?) {
         setHasOptionsMenu(true)
         addPreferencesFromResource(R.xml.pref_ad_block)
 

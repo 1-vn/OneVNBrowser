@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -102,7 +102,7 @@ class SuggestProvider : DaggerContentProvider() {
 
                 suggestions.addAll(net)
 
-                for (prefix in yuzuPrefix) {
+                for (prefix in onevnPrefix) {
                     if (prefix.startsWith(query)) {
                         suggestions.add(Suggestion(prefix))
                     }
@@ -125,7 +125,7 @@ class SuggestProvider : DaggerContentProvider() {
         try {
             val list = getSuggests(query)
             if (list != null) {
-                for (prefix in yuzuPrefix) {
+                for (prefix in onevnPrefix) {
                     if (prefix.startsWith(query)) {
                         list.add(Suggestion(prefix))
                     }
@@ -183,14 +183,14 @@ class SuggestProvider : DaggerContentProvider() {
             wrapCursor(db.query(TABLE_NAME, null, null, null, null, null, BaseColumns._ID + " DESC"))
         else {
             val dbQuery = query!!.replace("%", "$%").replace("_", "\$_")
-            addYuzuPrefix(query, db.query(TABLE_NAME, null, SearchManager.SUGGEST_COLUMN_QUERY + " LIKE '%' || ? || '%' ESCAPE '$'", arrayOf(dbQuery), null, null, BaseColumns._ID + " DESC"))
+            addOneVNPrefix(query, db.query(TABLE_NAME, null, SearchManager.SUGGEST_COLUMN_QUERY + " LIKE '%' || ? || '%' ESCAPE '$'", arrayOf(dbQuery), null, null, BaseColumns._ID + " DESC"))
         }
     }
 
-    private fun addYuzuPrefix(query: String, c: Cursor?): Cursor {
+    private fun addOneVNPrefix(query: String, c: Cursor?): Cursor {
         val suggestions = ArrayList<Suggestion>()
         if (!TextUtils.isEmpty(query)) {
-            for (prefix in yuzuPrefix) {
+            for (prefix in onevnPrefix) {
                 if (prefix.startsWith(query)) {
                     suggestions.add(Suggestion(prefix))
                 }
@@ -350,7 +350,7 @@ class SuggestProvider : DaggerContentProvider() {
             sUriMatcher.addURI(AUTHORITY, "normal/*", TYPE_NORMAL_ALL)
         }
 
-        private val yuzuPrefix = arrayOf("yuzu:bookmarks", "yuzu:debug", "yuzu:downloads", "yuzu:history", "yuzu:home", "yuzu:readItLater", "yuzu:resBlock", "yuzu:settings", "yuzu:speeddial")
+        private val onevnPrefix = arrayOf("onevn:bookmarks", "onevn:debug", "onevn:downloads", "onevn:history", "onevn:home", "onevn:readItLater", "onevn:resBlock", "onevn:settings", "onevn:speeddial")
 
         private const val COL_ID = 0
         //private static final int COL_TEXT_1 = 1;

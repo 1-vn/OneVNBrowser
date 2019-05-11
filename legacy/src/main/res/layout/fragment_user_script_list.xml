@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_edit_white_24dp"
             app:fab_size="mini"
-            app:fab_colorNormal="@color/yuzu_orange"
+            app:fab_colorNormal="@color/onevn_orange"
             app:fab_label="@string/add_by_edit" />
 
         <com.github.clans.fab.FloatingActionButton
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_file_white_24dp"
             app:fab_size="mini"
-            app:fab_colorNormal="@color/yuzu_orange"
+            app:fab_colorNormal="@color/onevn_orange"
             app:fab_label="@string/add_from_file" />
 
     </com.github.clans.fab.FloatingActionMenu>

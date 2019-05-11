@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (C) 2017-2019 Hazuki
+  ~ Copyright (C) 2017-2019 DiepDT
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -256,14 +256,14 @@
 
     <string name="not_bookmark_file">このファイルはHTMLブックマークファイルではありません。</string>
 
-    <string name="open_in_browser">Yuzu Browserで開く</string>
+    <string name="open_in_browser">OneVN Browserで開く</string>
     <string name="enable_share">共有にこのアプリを表示する</string>
 
     <string name="closed_tab">%1$s を閉じました</string>
     <string name="unknown">不明</string>
     <string name="delete_mf_gesture">マルチタッチジェスチャを削除</string>
     <string name="confirm_delete_mf_gesture">このジェスチャを削除しますか？</string>
-    <string name="theme_importer">Yuzu Browserテーマ インポート</string>
+    <string name="theme_importer">OneVN Browserテーマ インポート</string>
     <string name="theme_imported">\"%1$s\"をインポートしました</string>
     <string name="theme_installed_version">このバージョンのテーマはインポート済みです</string>
     <string name="theme_unknown_error">不明なエラー</string>

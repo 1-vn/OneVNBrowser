@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ import com.onevn.browser.core.utility.extensions.toSortedList
 import java.io.File
 
 val externalUserDirectory: File
-    get() = File(Environment.getExternalStorageDirectory().toString() + File.separator + "YuzuBrowser" + File.separator)
+    get() = File(Environment.getExternalStorageDirectory().toString() + File.separator + "OneVNBrowser" + File.separator)
 
 fun createUniqueFileName(root: DocumentFile, fileName: String, suffix: String): String {
     val checkName = CheckName(root.listFiles())

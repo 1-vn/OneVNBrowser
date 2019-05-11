@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -80,6 +80,6 @@ fun String.convertToTmpDownloadUrl(): String {
 
 private const val HALF_MB = 512 * 1024
 
-internal const val DOWNLOAD_TMP_TYPE = ";yuzu_tmp_download"
+internal const val DOWNLOAD_TMP_TYPE = ";onevn_tmp_download"
 
 internal const val DOWNLOAD_TMP_FILENAME = "tmp_download"

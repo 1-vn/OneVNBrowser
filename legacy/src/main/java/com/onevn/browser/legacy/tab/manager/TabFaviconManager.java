@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -63,7 +63,7 @@ public class TabFaviconManager {
 
     private void setFavicon(View view, TabIndexData indexData, boolean show) {
         TextView titleTextView = view.findViewById(R.id.textView);
-        if (show && indexData.getOriginalUrl() != null && !indexData.getOriginalUrl().startsWith("yuzu:")) {
+        if (show && indexData.getOriginalUrl() != null && !indexData.getOriginalUrl().startsWith("onevn:")) {
             Bitmap bitmap = manager.get(indexData.getOriginalUrl());
             Drawable icon;
             if (bitmap != null) {

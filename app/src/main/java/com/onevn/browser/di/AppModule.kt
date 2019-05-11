@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ import android.content.SharedPreferences
 import com.squareup.moshi.Moshi
 import dagger.Module
 import dagger.Provides
-import com.onevn.browser.YuzuBrowserApplication
+import com.onevn.browser.OneVNBrowserApplication
 import com.onevn.browser.kotshi.ApplicationJsonAdapterFactory
 import com.onevn.browser.legacy.kotshi.LegacyJsonAdapterFactory
 import com.onevn.browser.provider.SuggestProviderBridge
@@ -40,19 +40,19 @@ object AppModule {
 
     @Provides
     @JvmStatic
-    fun provideContext(app: YuzuBrowserApplication): Context {
+    fun provideContext(app: OneVNBrowserApplication): Context {
         return app
     }
 
     @Provides
     @JvmStatic
-    fun provideBrowserApplication(app: YuzuBrowserApplication): BrowserApplication {
+    fun provideBrowserApplication(app: OneVNBrowserApplication): BrowserApplication {
         return app
     }
 
     @Provides
     @JvmStatic
-    fun provideApplication(app: YuzuBrowserApplication): Application {
+    fun provideApplication(app: OneVNBrowserApplication): Application {
         return app
     }
 

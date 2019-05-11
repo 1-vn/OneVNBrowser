@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
 import dagger.android.AndroidInjector
-import com.onevn.browser.YuzuBrowserApplication
+import com.onevn.browser.OneVNBrowserApplication
 import com.onevn.browser.adblock.AdBlockModule
 import com.onevn.browser.adblock.AdBlockUiModule
 import com.onevn.browser.bookmark.BookmarkUiModule
@@ -47,12 +47,12 @@ import javax.inject.Singleton
     AdBlockUiModule::class,
     BookmarkUiModule::class
 ])
-interface AppComponent : AndroidInjector<YuzuBrowserApplication> {
+interface AppComponent : AndroidInjector<OneVNBrowserApplication> {
 
     @Component.Builder
     interface Builder {
         @BindsInstance
-        fun application(application: YuzuBrowserApplication): Builder
+        fun application(application: OneVNBrowserApplication): Builder
 
         fun build(): AppComponent
     }

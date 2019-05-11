@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ import com.onevn.browser.adblock.repository.abp.AbpEntity
 import kotlinx.coroutines.runBlocking
 
 fun initAbpFilter(context: Context, abpDatabase: AbpDatabase) = runBlocking {
-    val sites = context.assets.open("adblock/yuzu_filter.txt").bufferedReader().readLines()
+    val sites = context.assets.open("adblock/onevn_filter.txt").bufferedReader().readLines()
     abpDatabase
             .abpDao()
             .inset(sites
@@ -30,7 +30,7 @@ fun initAbpFilter(context: Context, abpDatabase: AbpDatabase) = runBlocking {
                     .map { AbpEntity(url = it[2], title = it[1], enabled = it[0] == "1") })
 }
 
-fun disableYuzuList(abpDatabase: AbpDatabase) = runBlocking {
+fun disableOneVNList(abpDatabase: AbpDatabase) = runBlocking {
     val dao = abpDatabase.abpDao()
     val entity = dao.getAll()[0]
     entity.enabled = false

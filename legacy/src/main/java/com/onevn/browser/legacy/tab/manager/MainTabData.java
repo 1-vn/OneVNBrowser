@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -61,7 +61,7 @@ public class MainTabData extends TabData {
         iconReceived = false;
         alertMode = ALERT_ALLOWED;
         if (AppData.toolbar_show_favicon.get()) {
-            if (url.startsWith("yuzu:")) {
+            if (url.startsWith("onevn:")) {
                 removeIcon();
             } else {
                 setIcon(loadingIcon);
@@ -81,7 +81,7 @@ public class MainTabData extends TabData {
 //            if (AppData.pause_web_tab_change.get())
 //                mWebView.onPause();
         }
-        if (AppData.toolbar_show_favicon.get() && !url.startsWith("yuzu:") && !iconReceived) {
+        if (AppData.toolbar_show_favicon.get() && !url.startsWith("onevn:") && !iconReceived) {
             setIcon(context.getDrawable(R.drawable.ic_page_white_24px));
         }
     }
@@ -111,7 +111,7 @@ public class MainTabData extends TabData {
             setText(url);
 
         if (originalUrl != null && AppData.toolbar_show_favicon.get()) {
-            if (originalUrl.startsWith("yuzu:")) {
+            if (originalUrl.startsWith("onevn:")) {
                 removeIcon();
             } else {
                 setIcon(new BitmapDrawable(context.getResources(),

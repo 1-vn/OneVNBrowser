@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,15 +27,15 @@ import com.onevn.browser.ui.PREFERENCE_FILE_NAME
 import com.onevn.browser.ui.R
 
 
-abstract class YuzuBasePreferenceFragment : PreferenceFragmentCompat() {
+abstract class OneVNBasePreferenceFragment : PreferenceFragmentCompat() {
     var preferenceResId: Int = 0
         private set
 
-    abstract fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?)
+    abstract fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?)
 
     override fun onCreatePreferencesFix(savedInstanceState: Bundle?, rootKey: String?) {
         preferenceManager.sharedPreferencesName = PREFERENCE_FILE_NAME
-        onCreateYuzuPreferences(savedInstanceState, rootKey)
+        onCreateOneVNPreferences(savedInstanceState, rootKey)
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {

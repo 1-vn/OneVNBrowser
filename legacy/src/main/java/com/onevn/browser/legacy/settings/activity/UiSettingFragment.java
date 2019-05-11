@@ -22,10 +22,10 @@ import androidx.annotation.Nullable;
 import com.onevn.browser.legacy.R;
 import com.onevn.browser.legacy.utils.AppUtils;
 
-public class UiSettingFragment extends YuzuPreferenceFragment {
+public class UiSettingFragment extends OneVNPreferenceFragment {
 
     @Override
-    public void onCreateYuzuPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
+    public void onCreateOneVNPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.pref_ui_settings);
 
         findPreference("theme_setting").setOnPreferenceChangeListener((preference, newValue) -> {

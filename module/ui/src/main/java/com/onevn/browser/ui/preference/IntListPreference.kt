@@ -42,7 +42,7 @@ class IntListPreference(context: Context, attrs: AttributeSet) : DialogPreferenc
         value = defaultValue as? Int ?: getPersistedInt(value)
     }
 
-    class PreferenceDialog : YuzuPreferenceDialog() {
+    class PreferenceDialog : OneVNPreferenceDialog() {
 
         private var mClickedItemIndex = -1
 
@@ -76,7 +76,7 @@ class IntListPreference(context: Context, attrs: AttributeSet) : DialogPreferenc
 
         companion object {
 
-            fun newInstance(preference: Preference): YuzuPreferenceDialog {
+            fun newInstance(preference: Preference): OneVNPreferenceDialog {
                 return newInstance(PreferenceDialog(), preference)
             }
         }

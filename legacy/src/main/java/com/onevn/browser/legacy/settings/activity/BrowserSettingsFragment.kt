@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,11 +31,11 @@ import com.onevn.browser.legacy.settings.data.AppData
 import com.onevn.browser.ui.preference.StrToIntListPreference
 import org.jetbrains.anko.longToast
 
-class BrowserSettingsFragment : YuzuPreferenceFragment() {
+class BrowserSettingsFragment : OneVNPreferenceFragment() {
 
     private var replaceFragment: ReplaceFragmentListener? = null
 
-    override fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?) {
+    override fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?) {
         addPreferencesFromResource(R.xml.pref_browser_settings)
 
         val pref = findPreference("search_suggest") as StrToIntListPreference
@@ -119,13 +119,13 @@ class BrowserSettingsFragment : YuzuPreferenceFragment() {
         private const val REQUEST_FOLDER = 1
     }
 
-    class SuggestScreen : YuzuPreferenceFragment() {
+    class SuggestScreen : OneVNPreferenceFragment() {
 
         private lateinit var suggestEngine: Preference
         private lateinit var suggestHistory: Preference
         private lateinit var suggestBookmark: Preference
 
-        override fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?) {
+        override fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?) {
             setPreferencesFromResource(R.xml.pref_browser_settings, "ps_search")
 
             val suggestMode = findPreference("search_suggest") as StrToIntListPreference

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,10 +23,10 @@ interface WebViewUtility {
     fun String.shouldLoadSameTabAuto() = regionMatches(0, "about:", 0, 6, true)
 
     fun String.shouldLoadSameTabScheme() = regionMatches(0, "intent:", 0, 7, true)
-            || regionMatches(0, "yuzu:", 0, 5, true)
+            || regionMatches(0, "onevn:", 0, 5, true)
             && isSpeedDial()
 
-    fun String.isSpeedDial() = equals("yuzu:speeddial", true)
+    fun String.isSpeedDial() = equals("onevn:speeddial", true)
 
     fun String.shouldLoadSameTabUser() = regionMatches(0, "javascript:", 0, 11, true)
 

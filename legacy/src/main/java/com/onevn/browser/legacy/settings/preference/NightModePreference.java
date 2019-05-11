@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ import androidx.preference.Preference;
 import com.onevn.browser.core.utility.utils.ColorFilterUtils;
 import com.onevn.browser.legacy.R;
 import com.onevn.browser.legacy.settings.data.AppData;
-import com.onevn.browser.ui.preference.YuzuPreferenceDialog;
+import com.onevn.browser.ui.preference.OneVNPreferenceDialog;
 
 public class NightModePreference extends DialogPreference {
 
@@ -43,7 +43,7 @@ public class NightModePreference extends DialogPreference {
         setNegativeButtonText(android.R.string.cancel);
     }
 
-    public static class SettingDialog extends YuzuPreferenceDialog {
+    public static class SettingDialog extends OneVNPreferenceDialog {
 
         private SeekBar temperature;
         private SeekBar brightness;
@@ -102,7 +102,7 @@ public class NightModePreference extends DialogPreference {
             }
         }
 
-        public static YuzuPreferenceDialog newInstance(Preference preference) {
+        public static OneVNPreferenceDialog newInstance(Preference preference) {
             return newInstance(new SettingDialog(), preference);
         }
     }

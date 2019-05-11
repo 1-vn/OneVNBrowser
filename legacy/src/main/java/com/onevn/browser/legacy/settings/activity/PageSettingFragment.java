@@ -25,10 +25,10 @@ import com.onevn.browser.legacy.R;
 import com.onevn.browser.legacy.webencode.WebTextEncodeSettingActivity;
 import com.onevn.browser.ui.preference.StrToIntListPreference;
 
-public class PageSettingFragment extends YuzuPreferenceFragment {
+public class PageSettingFragment extends OneVNPreferenceFragment {
 
     @Override
-    public void onCreateYuzuPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
+    public void onCreateOneVNPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.pref_page_settings);
 
         findPreference("web_encode_list").setOnPreferenceClickListener(preference -> {

@@ -21,9 +21,9 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import com.onevn.browser.legacy.R;
 
-public class ReaderSettingsFragment extends YuzuPreferenceFragment {
+public class ReaderSettingsFragment extends OneVNPreferenceFragment {
     @Override
-    public void onCreateYuzuPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
+    public void onCreateOneVNPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.pref_reader);
     }
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,11 +25,11 @@ import com.onevn.browser.bookmark.overflow.view.BookmarkOverflowMenuActivity
 import com.onevn.browser.legacy.R
 import com.onevn.browser.legacy.gesture.multiFinger.MultiFingerSettingsActivity
 
-class ActionSettingsFragment : YuzuPreferenceFragment() {
+class ActionSettingsFragment : OneVNPreferenceFragment() {
 
     private var replaceFragment: ReplaceFragmentListener? = null
 
-    override fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?) {
+    override fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?) {
         addPreferencesFromResource(R.xml.pref_action_settings)
 
         findPreference("mf_gesture").setOnPreferenceClickListener {
@@ -58,9 +58,9 @@ class ActionSettingsFragment : YuzuPreferenceFragment() {
         replaceFragment = null
     }
 
-    private class BookmarkPreferenceScreen : YuzuPreferenceFragment() {
+    private class BookmarkPreferenceScreen : OneVNPreferenceFragment() {
 
-        override fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?) {
+        override fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?) {
             setPreferencesFromResource(R.xml.pref_action_settings, "ps_bookmark")
 
             findPreference("bookmark_option_site").setOnPreferenceClickListener {

@@ -1,7 +1,7 @@
 {
   "title": "Configurações de interface",
   "theme": "Configurações de tema",
-  "theme_info": "Você pode escolher entre um embutido e seu próprio tema<br>Você também pode usar o tema do navegador mikan<br>Tema personalizado está dentro do armazenamento interno<br>Exemplo (faça as alterações apropriadas):<code>/sdcard/YuzuBrowser/theme/**theme name**/theme.json</code><br>Instale de modo que lhe convir",
+  "theme_info": "Você pode escolher entre um embutido e seu próprio tema<br>Você também pode usar o tema do navegador mikan<br>Tema personalizado está dentro do armazenamento interno<br>Exemplo (faça as alterações apropriadas):<code>/sdcard/OneVNBrowser/theme/**theme name**/theme.json</code><br>Instale de modo que lhe convir",
   "toolbar": "Configurações de barra de ferramentas",
   "font_size": "Configurações de tamanho da fonte",
   "font_size_info": "Você pode alterar o tamanho da fonte de marcadores, histórico, menu e lista de ler mais tarde.",

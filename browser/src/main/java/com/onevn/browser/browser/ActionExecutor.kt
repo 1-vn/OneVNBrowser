@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -783,7 +783,7 @@ class ActionExecutor(private val controller: BrowserController) : ActionControll
                 val intent = Intent(controller.applicationContextInfo, MainSettingsActivity::class.java)
                 controller.startActivity(intent, BrowserController.REQUEST_SETTING)
             }
-            SingleAction.OPEN_SPEED_DIAL -> controller.loadUrl(controller.getTab(actionTarget), "yuzu:speeddial")
+            SingleAction.OPEN_SPEED_DIAL -> controller.loadUrl(controller.getTab(actionTarget), "onevn:speeddial")
             SingleAction.ADD_BOOKMARK -> controller.addBookmark(controller.getTab(actionTarget))
             SingleAction.ADD_SPEED_DIAL -> {
                 val tab = controller.getTab(actionTarget)

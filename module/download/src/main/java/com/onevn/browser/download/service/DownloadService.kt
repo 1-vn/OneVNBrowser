@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -75,7 +75,7 @@ class DownloadService : DaggerService(), ServiceClient.ServiceClientListener {
 
         val notify = NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_DOWNLOAD_SERVICE)
                 .setContentTitle(getText(R.string.download_service))
-                .setSmallIcon(R.drawable.ic_yuzubrowser_white)
+                .setSmallIcon(R.drawable.ic_onevnbrowser_white)
                 .setPriority(NotificationCompat.PRIORITY_MIN)
                 .build()
 

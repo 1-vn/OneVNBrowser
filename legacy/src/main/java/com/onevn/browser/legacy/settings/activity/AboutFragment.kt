@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,9 +32,9 @@ import com.onevn.browser.legacy.utils.AppUtils
 import com.onevn.browser.legacy.utils.extensions.setClipboardWithToast
 import java.io.File
 
-class AboutFragment : YuzuPreferenceFragment() {
+class AboutFragment : OneVNPreferenceFragment() {
 
-    override fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?) {
+    override fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?) {
         val activity = activity ?: throw IllegalStateException()
         addPreferencesFromResource(R.xml.pref_about)
         val version = findPreference("version")
@@ -59,7 +59,7 @@ class AboutFragment : YuzuPreferenceFragment() {
         findPreference("privacy_policy").setOnPreferenceClickListener {
             startActivity(intentFor(Constants.activity.MAIN_BROWSER).apply {
                 action = Constants.intent.ACTION_OPEN_DEFAULT
-                data = Uri.parse("https://github.com/hazuki0x0/YuzuBrowser/wiki/Privacy-policy")
+                data = Uri.parse("https://github.com/hazuki0x0/OneVNBrowser/wiki/Privacy-policy")
             })
             true
         }

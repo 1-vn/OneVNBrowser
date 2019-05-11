@@ -1,10 +1,10 @@
-# Yuzu browser
-[![license](https://img.shields.io/github/license/hazuki0x0/YuzuBrowser.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![GitHub release](https://img.shields.io/github/release/hazuki0x0/YuzuBrowser.svg)](https://play.google.com/store/apps/details?id=com.onevn.browser)
+# OneVN browser
+[![license](https://img.shields.io/github/license/hazuki0x0/OneVNBrowser.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![GitHub release](https://img.shields.io/github/release/hazuki0x0/OneVNBrowser.svg)](https://play.google.com/store/apps/details?id=com.onevn.browser)
 
 <img src="app/src/main/ic_launcher-web.png" width="192" height="192">
 
-Yuzu browser is an open source power full web browser.
+OneVN browser is an open source power full web browser.
 
 You can create your own browser using custom UI and custom buttons.
 
@@ -18,10 +18,10 @@ This browser based on Mikan Browser.
 
 Or prebuilt apk file is here
 
-https://github.com/Hazuki0x0/YuzuBrowser/releases
+https://github.com/Hazuki0x0/OneVNBrowser/releases
 
 ## Theme
-Yuzu Browser supports custom theme.
+OneVN Browser supports custom theme.
 
 You can create custom theme with [theme creator app](https://play.google.com/store/apps/details?id=com.onevn.browser.themecreator).
 
@@ -36,10 +36,10 @@ Just download the theme pack and tap it to import!
 
 You can unzip and edit this theme.
 
-[Theme material dark](https://github.com/hazuki0x0/YuzuBrowser/releases/download/v3.1.1/theme_material_dark.yuzutheme)
+[Theme material dark](https://github.com/hazuki0x0/OneVNBrowser/releases/download/v3.1.1/theme_material_dark.onevntheme)
 (default theme)
 
-[Theme material light](https://github.com/hazuki0x0/YuzuBrowser/releases/download/v3.1.1/theme_material_light.yuzutheme)
+[Theme material light](https://github.com/hazuki0x0/OneVNBrowser/releases/download/v3.1.1/theme_material_light.onevntheme)
 
 > Aug. 14, 2017 update for 3.1.1
 
@@ -51,9 +51,9 @@ For installation method and specifications, please check the Readme.txt in the a
 
 You should use new theme pack if you are using version 2.3 or later
 
-[Theme material dark](https://github.com/Hazuki0x0/YuzuBrowser/releases/download/v1.1.0/yuzu_theme_material_dark.zip)
+[Theme material dark](https://github.com/Hazuki0x0/OneVNBrowser/releases/download/v1.1.0/onevn_theme_material_dark.zip)
 
-[Theme material light](https://github.com/Hazuki0x0/YuzuBrowser/releases/download/v1.1.0/yuzu_theme_material_light.zip)
+[Theme material light](https://github.com/Hazuki0x0/OneVNBrowser/releases/download/v1.1.0/onevn_theme_material_light.zip)
 
 ## Contributing
 Contributions are always welcome
@@ -63,17 +63,17 @@ TL;DR
 - Create a branch for your patch.
 - Create a pull request on the dev branch.
 
-Details are in [Contributing.md](https://github.com/hazuki0x0/YuzuBrowser/blob/dev/Contributing.md)
+Details are in [Contributing.md](https://github.com/hazuki0x0/OneVNBrowser/blob/dev/Contributing.md)
 
 ## Build
 
-    $ git clone https://github.com/Hazuki0x0/YuzuBrowser.git
-    $ cd YuzuBrowser
+    $ git clone https://github.com/Hazuki0x0/OneVNBrowser.git
+    $ cd OneVNBrowser
     $ ./gradlew build
 
 
 ## License
-    Copyright (C) 2017-2019 Hazuki
+    Copyright (C) 2017-2019 DiepDT
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

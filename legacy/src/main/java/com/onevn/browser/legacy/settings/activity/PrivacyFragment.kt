@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,10 +29,10 @@ import com.onevn.browser.legacy.browser.checkLocationPermission
 import com.onevn.browser.legacy.browser.requestLocationPermission
 import com.onevn.browser.legacy.webrtc.ui.WebPermissionActivity
 
-class PrivacyFragment : YuzuPreferenceFragment() {
+class PrivacyFragment : OneVNPreferenceFragment() {
     private val asyncPermissions by lazy { AsyncPermissions(activity as AppCompatActivity) }
 
-    override fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?) {
+    override fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?) {
         addPreferencesFromResource(R.xml.pref_privacy)
 
         findPreference("web_geolocation").setOnPreferenceClickListener {

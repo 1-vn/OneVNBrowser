@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,11 +48,11 @@ import com.onevn.browser.ui.preference.AlertDialogPreference
 import java.io.File
 import java.lang.ref.WeakReference
 
-class ImportExportFragment : YuzuPreferenceFragment(), androidx.loader.app.LoaderManager.LoaderCallbacks<Boolean> {
+class ImportExportFragment : OneVNPreferenceFragment(), androidx.loader.app.LoaderManager.LoaderCallbacks<Boolean> {
     private var progress: androidx.fragment.app.DialogFragment? = null
     private val asyncPermissions by lazy { AsyncPermissions(appCompatActivity) }
 
-    override fun onCreateYuzuPreferences(savedInstanceState: Bundle?, rootKey: String?) {
+    override fun onCreateOneVNPreferences(savedInstanceState: Bundle?, rootKey: String?) {
         addPreferencesFromResource(R.xml.pref_import_export)
         val activity = activity ?: return
 
@@ -366,8 +366,8 @@ class ImportExportFragment : YuzuPreferenceFragment(), androidx.loader.app.Loade
     }
 
     companion object {
-        private const val EXT = ".yuzubackup"
-        private const val EXT_SPEED_DIAL = ".yuzudial"
+        private const val EXT = ".onevnbackup"
+        private const val EXT_SPEED_DIAL = ".onevndial"
 
         private val handler = DialogHandler()
     }

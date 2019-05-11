@@ -26,7 +26,7 @@ import androidx.preference.DialogPreference;
 import androidx.preference.Preference;
 import com.onevn.browser.legacy.R;
 import com.onevn.browser.ui.preference.SeekBarPreferenceController;
-import com.onevn.browser.ui.preference.YuzuPreferenceDialog;
+import com.onevn.browser.ui.preference.OneVNPreferenceDialog;
 
 public class WebTextSizePreference extends DialogPreference {
     private int mValue;
@@ -50,11 +50,11 @@ public class WebTextSizePreference extends DialogPreference {
         persistInt(value);
     }
 
-    public static class SizeDialog extends YuzuPreferenceDialog {
+    public static class SizeDialog extends OneVNPreferenceDialog {
 
         private SeekBarPreferenceController mSeekbarController;
 
-        public static YuzuPreferenceDialog newInstance(Preference preference) {
+        public static OneVNPreferenceDialog newInstance(Preference preference) {
             return newInstance(new SizeDialog(), preference);
         }
 

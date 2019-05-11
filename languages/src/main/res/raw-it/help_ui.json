@@ -1,7 +1,7 @@
 {
   "title": "Impostazioni UI",
   "theme": "Impostazioni Tema",
-  "theme_info": "Puoi scegliere il tema integrato e il tuo tema<br>Puoi anche utilizzare il tema del browser mikan<br>Il tema personalizzato è all'interno della memoria interna<br>Esempio (si prega di apportare le modifiche appropriate):<code>/sdcard/YuzuBrowser/theme/**theme name**/theme.json</code><br>Si prega di installare in modo che diventi",
+  "theme_info": "Puoi scegliere il tema integrato e il tuo tema<br>Puoi anche utilizzare il tema del browser mikan<br>Il tema personalizzato è all'interno della memoria interna<br>Esempio (si prega di apportare le modifiche appropriate):<code>/sdcard/OneVNBrowser/theme/**theme name**/theme.json</code><br>Si prega di installare in modo che diventi",
   "toolbar": "Impostazioni barra degli strumenti",
   "font_size": "Impostazioni dimensione del carattere",
   "font_size_info": "È possibile modificare la dimensione del carattere di segnalibri, cronologia, menu e leggerlo negli elenchi successivi",

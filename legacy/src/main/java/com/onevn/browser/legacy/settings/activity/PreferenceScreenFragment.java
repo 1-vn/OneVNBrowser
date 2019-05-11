@@ -22,11 +22,11 @@ import com.takisoft.preferencex.PreferenceFragmentCompat;
 
 import androidx.annotation.Nullable;
 
-public class PreferenceScreenFragment extends YuzuPreferenceFragment {
+public class PreferenceScreenFragment extends OneVNPreferenceFragment {
     private static final String ARG_ID = "id";
 
     @Override
-    public void onCreateYuzuPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
+    public void onCreateOneVNPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(getArguments().getInt(ARG_ID), rootKey);
     }
 

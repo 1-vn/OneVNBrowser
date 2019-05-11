@@ -21,9 +21,9 @@ import android.os.Bundle;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceDialogFragmentCompat;
 
-public abstract class YuzuPreferenceDialog extends PreferenceDialogFragmentCompat {
+public abstract class OneVNPreferenceDialog extends PreferenceDialogFragmentCompat {
 
-    protected static <T extends YuzuPreferenceDialog> T newInstance(T dialog, Preference preference) {
+    protected static <T extends OneVNPreferenceDialog> T newInstance(T dialog, Preference preference) {
         Bundle bundle = new Bundle();
         bundle.putString(ARG_KEY, preference.getKey());
         dialog.setArguments(bundle);

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -75,7 +75,7 @@ class MainSettingsActivity : ThemeActivity(), PreferenceFragmentCompat.OnPrefere
     }
 
     override fun onPreferenceStartScreen(caller: PreferenceFragmentCompat?, pref: PreferenceScreen): Boolean {
-        return if (caller is YuzuPreferenceFragment) {
+        return if (caller is OneVNPreferenceFragment) {
             if (!caller.onPreferenceStartScreen(pref)) {
                 replaceFragment(PreferenceScreenFragment.newInstance(caller.preferenceResId, pref.key), pref.key)
             }

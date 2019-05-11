@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017-2019 Hazuki
+  ~ Copyright (C) 2017-2019 DiepDT
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@
         android:xlargeScreens="true" />
 
     <application
-        android:name=".YuzuBrowserApplication"
+        android:name=".OneVNBrowserApplication"
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_settings"
         android:hardwareAccelerated="true"
@@ -296,7 +296,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <data android:mimeType="*/*" />
-                <data android:pathPattern=".*\\.yuzutheme" />
+                <data android:pathPattern=".*\\.onevntheme" />
                 <data android:host="*" />
                 <data android:scheme="file" />
                 <data android:scheme="content" />

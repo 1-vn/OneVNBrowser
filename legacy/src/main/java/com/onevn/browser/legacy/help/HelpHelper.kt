@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import com.onevn.browser.core.utility.utils.getMimeType
 import java.io.IOException
 
 fun Uri.isHelpUrl(): Boolean {
-    return scheme == "yuzu" && host == "help"
+    return scheme == "onevn" && host == "help"
 }
 
 fun Uri.getHelpResponse(context: Context): WebResourceResponse? {
@@ -57,4 +57,4 @@ fun Uri.getHelpResponse(context: Context): WebResourceResponse? {
     return null
 }
 
-const val BROWSER_HELP_URL = "yuzu://help/index.html"
+const val BROWSER_HELP_URL = "onevn://help/index.html"

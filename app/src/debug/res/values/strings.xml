@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017-2019 Hazuki
+  ~ Copyright (C) 2017-2019 DiepDT
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -16,5 +16,5 @@
   -->
 
 <resources>
-    <string name="browser_app_name">Yuzu Browser[debug]</string>
+    <string name="browser_app_name">OneVN Browser[debug]</string>
 </resources>

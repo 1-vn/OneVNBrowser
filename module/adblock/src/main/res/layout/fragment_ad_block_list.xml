@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017-2019 Hazuki
+  ~ Copyright (C) 2017-2019 DiepDT
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_edit_white_24dp"
             app:fab_size="mini"
-            app:fab_colorNormal="@color/yuzu_orange"
+            app:fab_colorNormal="@color/onevn_orange"
             app:fab_label="@string/add_by_edit"/>
 
         <com.github.clans.fab.FloatingActionButton
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_file_white_24dp"
             app:fab_size="mini"
-            app:fab_colorNormal="@color/yuzu_orange"
+            app:fab_colorNormal="@color/onevn_orange"
             app:fab_label="@string/add_from_file"/>
 
     </com.github.clans.fab.FloatingActionMenu>

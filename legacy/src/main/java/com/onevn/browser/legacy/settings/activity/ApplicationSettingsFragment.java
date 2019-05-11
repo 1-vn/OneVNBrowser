@@ -26,10 +26,10 @@ import androidx.annotation.Nullable;
 import androidx.preference.SwitchPreference;
 import com.onevn.browser.legacy.R;
 
-public class ApplicationSettingsFragment extends YuzuPreferenceFragment {
+public class ApplicationSettingsFragment extends OneVNPreferenceFragment {
 
     @Override
-    public void onCreateYuzuPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
+    public void onCreateOneVNPreferences(@Nullable Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.pref_app_settings);
 
         SwitchPreference pref = (SwitchPreference) findPreference("enable_share");

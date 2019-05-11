@@ -1,7 +1,7 @@
 {
   "title": "表示設定",
   "theme": "テーマ設定",
-  "theme_info": "ビルトインおよび自作テーマを選択できる<br>mikan browserのテーマも使用できます<br>自作テーマは内部ストレージ内の<br>例(適時読み替えてください)：<code>/sdcard/YuzuBrowser/theme/**テーマ名**/theme.json</code><br>になるように設置してください",
+  "theme_info": "ビルトインおよび自作テーマを選択できる<br>mikan browserのテーマも使用できます<br>自作テーマは内部ストレージ内の<br>例(適時読み替えてください)：<code>/sdcard/OneVNBrowser/theme/**テーマ名**/theme.json</code><br>になるように設置してください",
   "toolbar": "ツールバー設定",
   "font_size": "フォントサイズ設定",
   "font_size_info": "ブックマーク、履歴、メニュー、あとで読む一覧のフォントの大きさを変更できます",

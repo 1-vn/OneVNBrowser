@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,7 +42,7 @@ internal class NormalWebView @JvmOverloads constructor(context: Context, attrs: 
     private var scrollExcessPlay = false
     private var nestedScrolled = false
     private var firstScroll = true
-    override val webSettings = YuzuWebSettings(settings)
+    override val webSettings = OneVNWebSettings(settings)
     override var theme: CustomWebView.WebViewTheme? = null
         private set
 

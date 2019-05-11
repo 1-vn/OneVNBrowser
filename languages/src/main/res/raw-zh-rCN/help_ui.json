@@ -1,7 +1,7 @@
 {
   "title": "用户界面设置",
   "theme": "主题设置",
-  "theme_info": "可选择内置主题或自定义主题<br>你也可以使用蜜柑浏览器（Mikan Browser）的主题<br>自定义主题需要位于内部存储中<br>示例（请进行适当修改）：<code>/sdcard/YuzuBrowser/theme/**主题名称**/theme.json</code><br>如此安装以使用",
+  "theme_info": "可选择内置主题或自定义主题<br>你也可以使用蜜柑浏览器（Mikan Browser）的主题<br>自定义主题需要位于内部存储中<br>示例（请进行适当修改）：<code>/sdcard/OneVNBrowser/theme/**主题名称**/theme.json</code><br>如此安装以使用",
   "toolbar": "工具栏设置",
   "font_size": "字体大小设置",
   "font_size_info": "可更改书签、历史记录、菜单以及稍后阅读列表的字体大小。",

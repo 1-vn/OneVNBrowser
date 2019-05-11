@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -100,7 +100,7 @@ public class AppData {
     public static final BooleanContainer javascript = new BooleanContainer("javascript", true);
     public static final BooleanContainer web_db = new BooleanContainer("web_db", true);
     public static final BooleanContainer web_dom_db = new BooleanContainer("web_dom_db", true);
-    public static final StringContainer home_page = new StringContainer("home_page", "yuzu:speeddial");
+    public static final StringContainer home_page = new StringContainer("home_page", "onevn:speeddial");
     public static final BooleanContainer load_overview = new BooleanContainer("load_overview", true);
     public static final BooleanContainer web_wideview = new BooleanContainer("web_wideview", true);
     public static final IntContainer oritentation = new IntContainer("oritentation", ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -40,7 +40,7 @@ import com.onevn.browser.ErrorReportServer
 import javax.inject.Inject
 
 
-class YuzuBrowserApplication : DaggerApplication(), BrowserApplication, HasSupportFragmentInjector {
+class OneVNBrowserApplication : DaggerApplication(), BrowserApplication, HasSupportFragmentInjector {
 
     override val applicationId = BuildConfig.APPLICATION_ID
     override val permissionAppSignature = PERMISSION_MYAPP_SIGNATURE
@@ -85,9 +85,9 @@ class YuzuBrowserApplication : DaggerApplication(), BrowserApplication, HasSuppo
     }
 
     companion object {
-        private const val TAG = "YuzuBrowserApplication"
+        private const val TAG = "OneVNBrowserApplication"
         const val PERMISSION_MYAPP_SIGNATURE = BuildConfig.APPLICATION_ID + ".permission.myapp.signature"
-        lateinit var instance: YuzuBrowserApplication
+        lateinit var instance: OneVNBrowserApplication
 
         init {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)

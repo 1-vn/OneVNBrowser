@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -143,7 +143,7 @@ class AdBlockController(private val context: Context, private val abpDao: AbpDao
     companion object {
         const val INJECT_HIDE_STYLE = "var aa =document.createElement(\"link\");" +
             "aa.type='text/css'; aa.rel='stylesheet'; " +
-            "aa.href='yuzu://adblock/hideElement.css';" +
+            "aa.href='onevn://adblock/hideElement.css';" +
             "document.getElementsByTagName(\"head\")[0].appendChild(aa);"
     }
 }

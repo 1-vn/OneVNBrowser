@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -107,7 +107,7 @@ class AbpUpdateService : DaggerIntentService("AbpUpdateService") {
 
     private suspend fun updateInternal(entity: AbpEntity): Boolean {
         return when {
-            entity.url == "yuzu://adblock/filter" -> updateAssets(entity)
+            entity.url == "onevn://adblock/filter" -> updateAssets(entity)
             entity.url.startsWith("http") -> updateHttp(entity)
             entity.url.startsWith("file") -> updateFile(entity)
             else -> false
@@ -173,7 +173,7 @@ class AbpUpdateService : DaggerIntentService("AbpUpdateService") {
                 dir.getAbpWhitePageListFile(entity).exists()) return false
         }
 
-        assets.open("adblock/yuzu_filter.txt").bufferedReader().use {
+        assets.open("adblock/onevn_filter.txt").bufferedReader().use {
             return decode(it, Charsets.UTF_8, entity)
         }
     }

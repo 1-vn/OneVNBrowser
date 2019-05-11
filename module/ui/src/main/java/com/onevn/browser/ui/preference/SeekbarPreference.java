@@ -37,9 +37,9 @@ public class SeekbarPreference extends DialogPreference {
         setValue(restoreValue ? getPersistedInt(mController.getValue()) : (Integer) defaultValue);
     }
 
-    public static class PreferenceDialog extends YuzuPreferenceDialog {
+    public static class PreferenceDialog extends OneVNPreferenceDialog {
 
-        public static YuzuPreferenceDialog newInstance(Preference preference) {
+        public static OneVNPreferenceDialog newInstance(Preference preference) {
             return newInstance(new PreferenceDialog(), preference);
         }
 

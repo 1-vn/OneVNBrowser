@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@ import com.onevn.browser.legacy.search.settings.SearchSimpleIconView
 import com.onevn.browser.legacy.search.settings.SearchUrl
 import com.onevn.browser.legacy.search.settings.SearchUrlManager
 import com.onevn.browser.legacy.settings.data.AppData
-import com.onevn.browser.ui.preference.YuzuPreferenceDialog
+import com.onevn.browser.ui.preference.OneVNPreferenceDialog
 import com.onevn.browser.ui.widget.recycler.ArrayRecyclerAdapter
 import com.onevn.browser.ui.widget.recycler.DividerItemDecoration
 import com.onevn.browser.ui.widget.recycler.OnRecyclerListener
@@ -46,7 +46,7 @@ class SearchUrlPreference(context: Context, attrs: AttributeSet) : DialogPrefere
         setNegativeButtonText(android.R.string.cancel)
     }
 
-    class PreferenceDialog : YuzuPreferenceDialog(), OnRecyclerListener {
+    class PreferenceDialog : OneVNPreferenceDialog(), OnRecyclerListener {
 
         private lateinit var manager: SearchUrlManager
 
@@ -55,8 +55,8 @@ class SearchUrlPreference(context: Context, attrs: AttributeSet) : DialogPrefere
 
         companion object {
             @JvmStatic
-            fun newInstance(preference: Preference): YuzuPreferenceDialog {
-                return YuzuPreferenceDialog.newInstance(PreferenceDialog(), preference)
+            fun newInstance(preference: Preference): OneVNPreferenceDialog {
+                return OneVNPreferenceDialog.newInstance(PreferenceDialog(), preference)
             }
         }
 

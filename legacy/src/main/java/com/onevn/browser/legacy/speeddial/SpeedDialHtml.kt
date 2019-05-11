@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -102,7 +102,7 @@ class SpeedDialHtml(context: Context) {
         for ((id, url, title, updateTime) in index) {
             builder.append("<div class=\"box\"><a href=\"")
                     .append(url)
-                    .append("\"><img src=\"yuzu:speeddial/img/")
+                    .append("\"><img src=\"onevn:speeddial/img/")
                     .append(id)
                     .append("?")
                     .append(updateTime)

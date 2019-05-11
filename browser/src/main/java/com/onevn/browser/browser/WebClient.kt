@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -489,7 +489,7 @@ class WebClient(private val activity: BrowserBaseActivity, private val controlle
         }
 
         override fun onReceivedError(view: CustomWebView, errorCode: Int, description: CharSequence, url: Uri) {
-            if (errorCode == ERROR_UNSUPPORTED_SCHEME && url.toString().equals("yuzu:speeddial", true)) {
+            if (errorCode == ERROR_UNSUPPORTED_SCHEME && url.toString().equals("onevn:speeddial", true)) {
                 view.view.postDelayed({ view.reload() }, 50)
             }
         }
@@ -522,7 +522,7 @@ class WebClient(private val activity: BrowserBaseActivity, private val controlle
         }
 
         override fun shouldInterceptRequest(web: CustomWebView, request: WebResourceRequest): WebResourceResponse? {
-            if ("yuzu".equals(request.url.scheme, ignoreCase = true)) {
+            if ("onevn".equals(request.url.scheme, ignoreCase = true)) {
                 if (request.url.isHelpUrl()) {
                     return request.url.getHelpResponse(activity)
                 }
@@ -892,7 +892,7 @@ class WebClient(private val activity: BrowserBaseActivity, private val controlle
                     Logger.e(TAG, "Can't resolve intent://", e)
                 }
             }
-            "yuzu" -> {
+            "onevn" -> {
                 var action = uri.schemeSpecificPart
 
                 val intent: Intent
@@ -932,7 +932,7 @@ class WebClient(private val activity: BrowserBaseActivity, private val controlle
                         }
                         "speeddial" -> return false
                         "home" -> {
-                            if ("yuzu:home".equals(AppData.home_page.get(), ignoreCase = true) || "yuzu://home".equals(AppData.home_page.get(), ignoreCase = true)) {
+                            if ("onevn:home".equals(AppData.home_page.get(), ignoreCase = true) || "onevn://home".equals(AppData.home_page.get(), ignoreCase = true)) {
                                 AppData.home_page.set("about:blank")
                                 AppData.commit(activity, AppData.home_page)
                             }
@@ -1145,7 +1145,7 @@ class WebClient(private val activity: BrowserBaseActivity, private val controlle
     }
 
     fun String.isSpeedDialUrl(): Boolean {
-        return "yuzu:speeddial".equals(this, ignoreCase = true)
+        return "onevn:speeddial".equals(this, ignoreCase = true)
     }
 
     companion object {

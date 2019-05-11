@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -165,7 +165,7 @@ public class BrowserHistoryManager {
     }
 
     private static boolean checkUrl(String url) {
-        return (!TextUtils.isEmpty(url) && !url.regionMatches(true, 0, "about:", 0, 6) && !url.regionMatches(true, 0, "yuzu:", 0, 5) && !url.regionMatches(true, 0, "data:", 0, 5));
+        return (!TextUtils.isEmpty(url) && !url.regionMatches(true, 0, "about:", 0, 6) && !url.regionMatches(true, 0, "onevn:", 0, 5) && !url.regionMatches(true, 0, "data:", 0, 5));
     }
 
     private static final class MyOpenHelper extends SQLiteOpenHelper {

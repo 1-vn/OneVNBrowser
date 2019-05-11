@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2019 Hazuki
+ * Copyright (C) 2017-2019 DiepDT
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ package com.onevn.browser.download
 import com.onevn.browser.ui.INTENT_ACTION_PREFIX
 import com.onevn.browser.ui.INTENT_EXTRA_PREFIX
 
-const val TMP_FILE_SUFFIX = ".yuzudownload"
+const val TMP_FILE_SUFFIX = ".onevndownload"
 
 const val NOTIFICATION_CHANNEL_DOWNLOAD_SERVICE = "com.onevn.browser.channel.dl.service"
 const val NOTIFICATION_CHANNEL_DOWNLOAD_NOTIFY = "com.onevn.browser.channel.dl.notify2"
