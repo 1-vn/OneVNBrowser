@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 
-<jp.hazuki.yuzubrowser.ui.widget.RootLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.onevn.browser.ui.widget.RootLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                             xmlns:app="http://schemas.android.com/apk/res-auto"
                                             xmlns:tools="http://schemas.android.com/tools"
                                             android:id="@+id/superFrameLayout"
@@ -28,7 +28,7 @@
         android:layout_height="match_parent">
 
 
-        <jp.hazuki.yuzubrowser.ui.widget.CustomCoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        <com.onevn.browser.ui.widget.CustomCoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
                                                                  android:id="@+id/coordinator"
                                                                  android:layout_width="match_parent"
                                                                  android:layout_height="0dp"
@@ -67,12 +67,12 @@
             </com.google.android.material.appbar.AppBarLayout>
 
 
-            <jp.hazuki.yuzubrowser.browser.view.GestureFrameLayout
+            <com.onevn.browser.browser.view.GestureFrameLayout
                 android:id="@+id/webGestureOverlayView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                app:layout_behavior="jp.hazuki.yuzubrowser.browser.behavior.WebViewBehavior">
+                app:layout_behavior="com.onevn.browser.browser.behavior.WebViewBehavior">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -92,7 +92,7 @@
                         android:visibility="gone"
                         android:layout_weight="0"/>
 
-                    <jp.hazuki.yuzubrowser.ui.widget.PaddingFrameLayout
+                    <com.onevn.browser.ui.widget.PaddingFrameLayout
                         android:id="@+id/bottomAlwaysOverlayToolbarPadding"
                         android:layout_width="match_parent"
                         android:layout_height="0px"
@@ -100,7 +100,7 @@
                         android:layout_weight="0"/>
                 </LinearLayout>
 
-                <jp.hazuki.yuzubrowser.legacy.utils.view.fastscroll.WebViewFastScroller
+                <com.onevn.browser.legacy.utils.view.fastscroll.WebViewFastScroller
                     android:id="@+id/webViewFastScroller"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -109,7 +109,7 @@
                     app:fs_barColor="@color/deep_gray"
                     app:fs_handleNormalColor="@color/scroll_bar"/>
 
-                <jp.hazuki.yuzubrowser.browser.view.CustomGestureOverlayView
+                <com.onevn.browser.browser.view.CustomGestureOverlayView
                     android:id="@+id/webGestureOverlayViewInner"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -121,7 +121,7 @@
                     android:gestureStrokeWidth="8.0"
                     android:uncertainGestureColor="@color/web_gesture_color"/>
 
-            </jp.hazuki.yuzubrowser.browser.view.GestureFrameLayout>
+            </com.onevn.browser.browser.view.GestureFrameLayout>
 
             <LinearLayout
                 android:id="@+id/bottomOverlayLayout"
@@ -129,7 +129,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:orientation="vertical"
-                app:layout_behavior="jp.hazuki.yuzubrowser.browser.behavior.BottomBarBehavior">
+                app:layout_behavior="com.onevn.browser.browser.behavior.BottomBarBehavior">
 
                 <LinearLayout
                     android:id="@+id/bottomAlwaysOverlayToolbar"
@@ -148,7 +148,7 @@
             </LinearLayout>
 
 
-        </jp.hazuki.yuzubrowser.ui.widget.CustomCoordinatorLayout>
+        </com.onevn.browser.ui.widget.CustomCoordinatorLayout>
 
         <LinearLayout
             android:id="@+id/bottomAlwaysToolbar"
@@ -207,4 +207,4 @@
         android:background="#AA000000"
         android:textColor="@color/white"
         android:visibility="gone" />
-</jp.hazuki.yuzubrowser.ui.widget.RootLayout>
+</com.onevn.browser.ui.widget.RootLayout>

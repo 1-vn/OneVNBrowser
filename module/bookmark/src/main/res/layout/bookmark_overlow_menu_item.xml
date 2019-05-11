@@ -23,7 +23,7 @@
 
         <variable
             name="model"
-            type="jp.hazuki.yuzubrowser.bookmark.overflow.model.OverflowMenuModel"/>
+            type="com.onevn.browser.bookmark.overflow.model.OverflowMenuModel"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

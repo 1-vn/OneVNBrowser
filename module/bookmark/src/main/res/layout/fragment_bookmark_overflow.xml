@@ -23,11 +23,11 @@
 
         <variable
             name="adapter"
-            type="jp.hazuki.yuzubrowser.bookmark.overflow.view.OverflowMenuAdapter"/>
+            type="com.onevn.browser.bookmark.overflow.view.OverflowMenuAdapter"/>
 
         <variable
             name="viewModel"
-            type="jp.hazuki.yuzubrowser.bookmark.overflow.viewmodel.OverflowMenuViewModel"/>
+            type="com.onevn.browser.bookmark.overflow.viewmodel.OverflowMenuViewModel"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

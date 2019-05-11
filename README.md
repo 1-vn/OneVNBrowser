@@ -1,6 +1,6 @@
 # Yuzu browser
 [![license](https://img.shields.io/github/license/hazuki0x0/YuzuBrowser.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![GitHub release](https://img.shields.io/github/release/hazuki0x0/YuzuBrowser.svg)](https://play.google.com/store/apps/details?id=jp.hazuki.yuzubrowser)
+[![GitHub release](https://img.shields.io/github/release/hazuki0x0/YuzuBrowser.svg)](https://play.google.com/store/apps/details?id=com.onevn.browser)
 
 <img src="app/src/main/ic_launcher-web.png" width="192" height="192">
 
@@ -13,7 +13,7 @@ This browser based on Mikan Browser.
 ## Download and install
 **Android 5.0 or higher is required.**
 
-<a href="https://play.google.com/store/apps/details?id=jp.hazuki.yuzubrowser">
+<a href="https://play.google.com/store/apps/details?id=com.onevn.browser">
 <img src="https://cloud.githubusercontent.com/assets/15681348/25552469/9d87214c-2cd5-11e7-8ada-6cf0c69df419.png" width="200px"></a>
 
 Or prebuilt apk file is here
@@ -23,7 +23,7 @@ https://github.com/Hazuki0x0/YuzuBrowser/releases
 ## Theme
 Yuzu Browser supports custom theme.
 
-You can create custom theme with [theme creator app](https://play.google.com/store/apps/details?id=jp.hazuki.yuzubrowser.themecreator).
+You can create custom theme with [theme creator app](https://play.google.com/store/apps/details?id=com.onevn.browser.themecreator).
 
 You can use it if you have the theme of Mikan Browser.
 

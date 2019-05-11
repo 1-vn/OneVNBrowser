@@ -8,7 +8,7 @@
     "disable": "Disable",
     "disable_info": "Access is completely prohibited.",
     "sandbox": "Enable in sandbox",
-    "sandbox_info": "Allow access only in external storage and /data/data/jp.hazuki.yuzubrowser/app_public_html.",
+    "sandbox_info": "Allow access only in external storage and /data/data/com.onevn.browser/app_public_html.",
     "enable": "Enable",
     "enable_info": "Allow access to all accessible paths."
   },

@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <jp.hazuki.yuzubrowser.ui.widget.breadcrumbs.BreadcrumbsView
+            <com.onevn.browser.ui.widget.breadcrumbs.BreadcrumbsView
                 android:id="@+id/breadCrumbsView"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
 
-            <jp.hazuki.yuzubrowser.ui.widget.fastscroll.RecyclerViewFastScroller
+            <com.onevn.browser.ui.widget.fastscroll.RecyclerViewFastScroller
                 android:id="@+id/fastScroller"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"

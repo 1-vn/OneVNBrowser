@@ -16,7 +16,7 @@
             android:text="ExternalStorageDir"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <jp.hazuki.yuzubrowser.legacy.utils.view.CopyableTextView
+        <com.onevn.browser.legacy.utils.view.CopyableTextView
             android:id="@+id/externalStorageDirTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
             android:text="ExternalStorageState"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <jp.hazuki.yuzubrowser.legacy.utils.view.CopyableTextView
+        <com.onevn.browser.legacy.utils.view.CopyableTextView
             android:id="@+id/externalStorageStateTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             android:text="ExternalFilesDir"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <jp.hazuki.yuzubrowser.legacy.utils.view.CopyableTextView
+        <com.onevn.browser.legacy.utils.view.CopyableTextView
             android:id="@+id/externalFilesDirTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
             android:text="EstimatedExternalStorageDir"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <jp.hazuki.yuzubrowser.legacy.utils.view.CopyableTextView
+        <com.onevn.browser.legacy.utils.view.CopyableTextView
             android:id="@+id/estimatedExternalFilesDirTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
             android:text="Download URI"
             android:textAppearance="?android:attr/textAppearanceMedium"/>
 
-        <jp.hazuki.yuzubrowser.legacy.utils.view.CopyableTextView
+        <com.onevn.browser.legacy.utils.view.CopyableTextView
             android:id="@+id/downloadUriTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
             android:text="Resolved download Path"
             android:textAppearance="?android:attr/textAppearanceMedium"/>
 
-        <jp.hazuki.yuzubrowser.legacy.utils.view.CopyableTextView
+        <com.onevn.browser.legacy.utils.view.CopyableTextView
             android:id="@+id/downloadPathTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

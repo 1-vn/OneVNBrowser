@@ -3,19 +3,19 @@
                   xmlns:app="http://schemas.android.com/apk/res-auto"
                   android:title="@string/pref_reader_settings">
 
-    <jp.hazuki.yuzubrowser.ui.preference.StrToIntListPreference
+    <com.onevn.browser.ui.preference.StrToIntListPreference
         android:entries="@array/pref_reader_theme_list"
         android:entryValues="@array/pref_reader_theme_values"
         android:key="reader_theme"
         android:title="@string/pref_reader_theme"/>
 
-    <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+    <com.onevn.browser.ui.preference.SeekbarPreference
         android:key="reader_text_size"
         android:title="@string/pref_reader_text_size"
         app:seekMax="30"
         app:seekMin="10"/>
 
-    <jp.hazuki.yuzubrowser.legacy.settings.preference.FontListPreference
+    <com.onevn.browser.legacy.settings.preference.FontListPreference
         android:key="reader_text_font"
         android:title="@string/pref_reader_text_font"/>
 

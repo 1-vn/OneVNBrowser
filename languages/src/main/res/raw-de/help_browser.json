@@ -60,7 +60,7 @@
   "unknown_scheme": "Unbekanntes Schema teilen",
   "unknown_scheme_info": "Versuchen Sie, die URL von einer anderen Anwendung zu öffnen, die kein Schema unterstützt. (z.B. intent:// oder twitter://)",
   "download_dir": "Download-Verzeichnis",
-  "download_dir_info": "Geben Sie den Zielordner an<br>Bei einer SD-Karte ist dies nur möglich unter /storage/sdcard1/Android/data/jp.hazuki.yuzubrowser/files",
+  "download_dir_info": "Geben Sie den Zielordner an<br>Bei einer SD-Karte ist dies nur möglich unter /storage/sdcard1/Android/data/com.onevn.browser/files",
   "auto_save": "Automatisches Speicherinterval (sec.)",
   "auto_save_info": "Automatisches Speicherintervall einstellen (sec.)<br>Automatisches Speichern wird nicht ausgeführt, wenn es 0 sec. ist.",
   "slow_rendering": "Verlangsamter Bildaufbau",

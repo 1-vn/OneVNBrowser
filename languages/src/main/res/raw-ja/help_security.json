@@ -8,7 +8,7 @@
     "disable": "無効",
     "disable_info": "アクセスを完全に禁止する。",
     "sandbox": "サンドボックス内で有効",
-    "sandbox_info": "外部ストレージ内と/data/data/jp.hazuki.yuzubrowser/app_public_html内のアクセスのみ許可する。",
+    "sandbox_info": "外部ストレージ内と/data/data/com.onevn.browser/app_public_html内のアクセスのみ許可する。",
     "enable": "有効",
     "enable_info": "アクセス可能なパス全てにアクセス許可する。"
   },

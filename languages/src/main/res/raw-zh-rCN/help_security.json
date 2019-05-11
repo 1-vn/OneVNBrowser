@@ -8,7 +8,7 @@
     "disable": "禁用",
     "disable_info": "访问将被完全禁止。",
     "sandbox": "在沙箱中启用",
-    "sandbox_info": "仅允许访问外部存储和 /data/data/jp.hazuki.yuzubrowser/app_public_html。",
+    "sandbox_info": "仅允许访问外部存储和 /data/data/com.onevn.browser/app_public_html。",
     "enable": "启用",
     "enable_info": "允许访问所有可用路径。"
   },

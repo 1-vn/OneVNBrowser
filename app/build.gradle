@@ -28,7 +28,7 @@ android {
     compileSdkVersion Build.compile_sdk_version
     buildToolsVersion Build.build_tools_version
     defaultConfig {
-        applicationId "jp.hazuki.yuzubrowser"
+        applicationId "com.onevn.browser"
         minSdkVersion Build.min_sdk_version
         targetSdkVersion Build.target_sdk_version
         versionCode AppVersions.version_code

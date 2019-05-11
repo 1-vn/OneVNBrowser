@@ -17,7 +17,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="jp.hazuki.yuzubrowser">
+    package="com.onevn.browser">
 
     <supports-screens
         android:smallScreens="true"
@@ -44,7 +44,7 @@
             android:value="true"/>
 
         <activity
-            android:name="jp.hazuki.yuzubrowser.browser.BrowserActivity"
+            android:name="com.onevn.browser.browser.BrowserActivity"
             android:alwaysRetainTaskState="true"
             android:configChanges="screenLayout|smallestScreenSize|keyboardHidden|orientation|screenSize"
             android:launchMode="singleInstance"
@@ -125,14 +125,14 @@
             </intent-filter>
         </activity-alias>
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.settings.activity.MainSettingsActivity"
+            android:name="com.onevn.browser.legacy.settings.activity.MainSettingsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:label="@string/pref_settings"
             android:theme="@style/BrowserThemeDayNight.Pref"/>
         <activity-alias
             android:name=".CreateSettingsShortCut"
-            android:targetActivity="jp.hazuki.yuzubrowser.legacy.settings.activity.MainSettingsActivity"
+            android:targetActivity="com.onevn.browser.legacy.settings.activity.MainSettingsActivity"
             android:label="@string/browser_settings">
             <intent-filter>
                 <action android:name="android.intent.action.CREATE_SHORTCUT"/>
@@ -140,79 +140,79 @@
             </intent-filter>
         </activity-alias>
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.action.view.ActionActivity"
+            android:name="com.onevn.browser.legacy.action.view.ActionActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/pref_settings" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.action.view.ActionListActivity"
+            android:name="com.onevn.browser.legacy.action.view.ActionListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.action.view.ActionListManagerActivity"
+            android:name="com.onevn.browser.legacy.action.view.ActionListManagerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.search.SearchActivity"
+            android:name="com.onevn.browser.legacy.search.SearchActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/BrowserThemeDayNight.Transparent"/>
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.pattern.url.PatternUrlActivity"
+            android:name="com.onevn.browser.legacy.pattern.url.PatternUrlActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/pref_pattern_match" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.debug.DebugActivity"
+            android:name="com.onevn.browser.legacy.debug.DebugActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.debug.DebugFileListActivity"
+            android:name="com.onevn.browser.legacy.debug.DebugFileListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.debug.TextEditActivity"
+            android:name="com.onevn.browser.legacy.debug.TextEditActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.debug.ActivityListActivity"
+            android:name="com.onevn.browser.legacy.debug.ActivityListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.debug.EnvironmentActivity"
+            android:name="com.onevn.browser.legacy.debug.EnvironmentActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.action.view.ActionStringActivity"
+            android:name="com.onevn.browser.legacy.action.view.ActionStringActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
 
         <provider
-            android:name="jp.hazuki.yuzubrowser.provider.SuggestProvider"
+            android:name="com.onevn.browser.provider.SuggestProvider"
             android:authorities="${applicationId}.search.SuggestProvider"
             android:exported="false"
             android:permission="${applicationId}.permission.myapp.signature"
-            android:readPermission="jp.hazuki.yuzubrowser.permission.myapp.signature"
-            android:writePermission="jp.hazuki.yuzubrowser.permission.myapp.signature" />
+            android:readPermission="com.onevn.browser.permission.myapp.signature"
+            android:writePermission="com.onevn.browser.permission.myapp.signature" />
 
         <service
-            android:name="jp.hazuki.yuzubrowser.download.service.DownloadService"
+            android:name="com.onevn.browser.download.service.DownloadService"
             android:exported="false" />
 
         <activity
-            android:name="jp.hazuki.yuzubrowser.download.ui.FastDownloadActivity"
+            android:name="com.onevn.browser.download.ui.FastDownloadActivity"
             android:exported="false"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/BrowserThemeDayNight.Transparent"/>
         <activity
-            android:name="jp.hazuki.yuzubrowser.download.ui.DownloadListActivity"
+            android:name="com.onevn.browser.download.ui.DownloadListActivity"
             android:label="@string/download"/>
 
         <provider
-            android:name=".provider.SafeFileProvider"
+            android:name="com.onevn.browser.provider.SafeFileProvider"
             android:authorities="${applicationId}.browser.SafeFileProvider"
             android:exported="false"
             android:permission="${applicationId}.permission.myapp.signature"
-            android:readPermission="jp.hazuki.yuzubrowser.permission.myapp.signature"
-            android:writePermission="jp.hazuki.yuzubrowser.permission.myapp.signature" />
+            android:readPermission="com.onevn.browser.permission.myapp.signature"
+            android:writePermission="com.onevn.browser.permission.myapp.signature" />
         <provider
-            android:name="jp.hazuki.yuzubrowser.provider.DownloadFileProvider"
+            android:name="com.onevn.browser.provider.DownloadFileProvider"
             android:authorities="${applicationId}.downloadFileProvider"
             android:exported="true"
             android:grantUriPermissions="true" />
 
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.history.BrowserHistoryActivity"
+            android:name="com.onevn.browser.legacy.history.BrowserHistoryActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/history" />
         <activity
@@ -221,24 +221,24 @@
             android:label="@string/bookmark"
             android:theme="@style/BrowserThemeDayNight.CustomToolbar"/>
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.gesture.AddGestureActivity"
+            android:name="com.onevn.browser.legacy.gesture.AddGestureActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.gesture.GestureListActivity"
+            android:name="com.onevn.browser.legacy.gesture.GestureListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.gesture.GestureTestActivity"
+            android:name="com.onevn.browser.legacy.gesture.GestureTestActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.action.item.startactivity.StartActivityPreferenceActivity"
+            android:name="com.onevn.browser.legacy.action.item.startactivity.StartActivityPreferenceActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/action_start_activity_setting" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.action.item.CustomSingleActionActivity"
+            android:name="com.onevn.browser.legacy.action.item.CustomSingleActionActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/action_custom_setting" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.useragent.UserAgentListActivity"
+            android:name="com.onevn.browser.legacy.useragent.UserAgentListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize|screenSize"
             android:label="@string/action_useragent_setting"
             android:theme="@style/BrowserThemeDayNight.Transparent"/>
@@ -248,28 +248,28 @@
             android:label="@string/action_web_encode_setting"
             android:theme="@style/BrowserThemeDayNight.Transparent"/>
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.userjs.UserScriptListActivity"
+            android:name="com.onevn.browser.legacy.userjs.UserScriptListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/pref_userjs_manage" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.userjs.UserScriptEditActivity"
+            android:name="com.onevn.browser.legacy.userjs.UserScriptEditActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/userjs_edit" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.utils.view.filelist.FileListActivity"
+            android:name="com.onevn.browser.legacy.utils.view.filelist.FileListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.resblock.ResourceBlockListActivity"
+            android:name="com.onevn.browser.legacy.resblock.ResourceBlockListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/pref_resblock_manage" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.action.view.SoftButtonActionArrayActivity"
+            android:name="com.onevn.browser.legacy.action.view.SoftButtonActionArrayActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.action.view.SoftButtonActionActivity"
+            android:name="com.onevn.browser.legacy.action.view.SoftButtonActionActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.useragent.UserAgentSettingActivity"
+            android:name="com.onevn.browser.legacy.useragent.UserAgentSettingActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/action_useragent_setting" />
         <activity
@@ -277,17 +277,17 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/action_web_encode_setting" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.action.view.CloseAutoSelectActivity"
+            android:name="com.onevn.browser.legacy.action.view.CloseAutoSelectActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/pref_close_auto_select" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.speeddial.view.SpeedDialSettingActivity"
+            android:name="com.onevn.browser.legacy.speeddial.view.SpeedDialSettingActivity"
             android:label="@string/pref_speed_dial_setting" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.gesture.multiFinger.MultiFingerSettingsActivity"
+            android:name="com.onevn.browser.legacy.gesture.multiFinger.MultiFingerSettingsActivity"
             android:label="@string/pref_multi_finger_gesture_settings" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.theme.ThemeImportActivity"
+            android:name="com.onevn.browser.legacy.theme.ThemeImportActivity"
             android:label="@string/theme_importer"
             android:theme="@style/BrowserThemeDayNight.Transparent"
             android:configChanges="keyboardHidden|orientation|screenSize">
@@ -307,24 +307,24 @@
             android:theme="@style/BrowserThemeDayNight.Pref"
             android:label="@string/pref_ad_block" />
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.reader.ReaderActivity"
+            android:name="com.onevn.browser.legacy.reader.ReaderActivity"
             android:theme="@style/BrowserThemeDayNight.NoTitle"/>
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.readitlater.ReadItLaterActivity"
+            android:name="com.onevn.browser.legacy.readitlater.ReadItLaterActivity"
             android:label="@string/read_it_later"/>
 
         <provider
             android:authorities="${applicationId}.readItLaterProvider"
-            android:name="jp.hazuki.yuzubrowser.provider.ReadItLaterProvider"
+            android:name="com.onevn.browser.provider.ReadItLaterProvider"
             android:exported="false"/>
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.search.settings.SearchUrlListActivity"
+            android:name="com.onevn.browser.legacy.search.settings.SearchUrlListActivity"
             android:label="@string/pref_search_url_settings"/>
         <activity
-            android:name="jp.hazuki.yuzubrowser.legacy.webrtc.ui.WebPermissionActivity"
+            android:name="com.onevn.browser.legacy.webrtc.ui.WebPermissionActivity"
             android:label="@string/pref_content_settings"/>
         <activity
-            android:name="jp.hazuki.yuzubrowser.download.ui.FallbackFolderSelectActivity"
+            android:name="com.onevn.browser.download.ui.FallbackFolderSelectActivity"
             android:label="@string/pref_download_folder"
             android:theme="@style/BrowserThemeDayNight.Transparent"/>
     </application>

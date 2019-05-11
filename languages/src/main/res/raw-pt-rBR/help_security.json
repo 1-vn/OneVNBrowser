@@ -8,7 +8,7 @@
     "disable": "Desativar",
     "disable_info": "O acesso é completamente proibido.",
     "sandbox": "Ativar na sandbox",
-    "sandbox_info": "Permitir acesso apenas no armazenamento externo e /data/data/jp.hazuki.yuzubrowser/app_public_html.",
+    "sandbox_info": "Permitir acesso apenas no armazenamento externo e /data/data/com.onevn.browser/app_public_html.",
     "enable": "Ativar",
     "enable_info": "Permitir acesso para todos caminhos acessíveis."
   },

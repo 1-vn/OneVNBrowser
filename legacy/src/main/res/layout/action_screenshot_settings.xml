@@ -18,7 +18,7 @@
         android:text="@string/action_screenshot_full_error"/>
 
     <!--
-    <jp.hazuki.yuzubrowser.legacy.utils.view.filelist.FileListButton
+    <com.onevn.browser.legacy.utils.view.filelist.FileListButton
         android:id="@+id/folderButton"
         style="@android:style/Widget.Spinner"
         android:layout_width="match_parent"

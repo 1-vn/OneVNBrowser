@@ -15,7 +15,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="jp.hazuki.yuzubrowser.browser">
+          package="com.onevn.browser.browser">
 
     <uses-permission android:name="android.permission.VIBRATE"/>
 </manifest>

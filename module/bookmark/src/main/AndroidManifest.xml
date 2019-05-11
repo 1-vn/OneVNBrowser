@@ -15,11 +15,11 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="jp.hazuki.bookmark">
+          package="com.onevn.bookmark">
 
     <application>
         <activity
-            android:name="jp.hazuki.yuzubrowser.bookmark.overflow.view.BookmarkOverflowMenuActivity"
+            android:name="com.onevn.browser.bookmark.overflow.view.BookmarkOverflowMenuActivity"
             android:label="@string/pref_action_settings"/>
     </application>
 </manifest>

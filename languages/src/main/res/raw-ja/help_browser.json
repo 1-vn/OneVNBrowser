@@ -60,7 +60,7 @@
   "unknown_scheme": "未知のスキームを共有",
   "unknown_scheme_info": "対応していないスキーム(intent://やtwitter://など)を他のアプリで開くようにする",
   "download_dir": "ダウンロード先",
-  "download_dir_info": "ダウンロード先のフォルダを指定<br>sd cardは/storage/sdcard1/Android/data/jp.hazuki.yuzubrowser/files のみ可",
+  "download_dir_info": "ダウンロード先のフォルダを指定<br>sd cardは/storage/sdcard1/Android/data/com.onevn.browser/files のみ可",
   "auto_save": "オートセーブの間隔",
   "auto_save_info": "オートセーブの間隔を設定する<br>0秒の場合オートセーブはしない",
   "slow_rendering": "スローレンダリング",

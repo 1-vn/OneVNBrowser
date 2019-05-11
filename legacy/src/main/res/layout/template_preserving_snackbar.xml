@@ -7,7 +7,7 @@
     android:layout_gravity="bottom"
     tools:ignore="RtlHardcoded,PrivateResource">
 
-    <jp.hazuki.yuzubrowser.legacy.utils.view.templatepreserving.TemplatePreservingTextView
+    <com.onevn.browser.legacy.utils.view.templatepreserving.TemplatePreservingTextView
         android:id="@+id/snackbarText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

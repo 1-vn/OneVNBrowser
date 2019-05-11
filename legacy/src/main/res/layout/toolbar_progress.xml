@@ -22,7 +22,7 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <jp.hazuki.yuzubrowser.ui.widget.progress.MaterialProgressBar
+    <com.onevn.browser.ui.widget.progress.MaterialProgressBar
         android:id="@+id/progressBar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

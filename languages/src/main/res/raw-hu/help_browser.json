@@ -60,7 +60,7 @@
   "unknown_scheme": "Ismeretlen sémák megosztása",
   "unknown_scheme_info": "Megpróbálja az URL-t megnyitni más alkalmazással, ha nem egy támogatott sémát tartalmaz (mint például intent:// vagy twitter://)",
   "download_dir": "Letöltések mappája",
-  "download_dir_info": "Megadható a letöltések célmappája<br>SD kártyán csak a /storage/sdcard1/Android/data/jp.hazuki.yuzubrowser/files adható meg",
+  "download_dir_info": "Megadható a letöltések célmappája<br>SD kártyán csak a /storage/sdcard1/Android/data/com.onevn.browser/files adható meg",
   "auto_save": "Automata mentés intervalluma (mp)",
   "auto_save_info": "Beállítja az automatikus mentés intervallumát (mp)<br>Állítsd 0-ra, hogy ne történjen mentés",
   "slow_rendering": "Lassú renderelés",

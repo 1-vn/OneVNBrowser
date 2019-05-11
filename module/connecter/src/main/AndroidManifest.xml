@@ -15,4 +15,4 @@
   -->
 
 <manifest
-    package="jp.hazuki.yuzubrowser.browser.connecter"/>
+    package="com.onevn.browser.browser.connecter"/>

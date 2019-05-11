@@ -21,34 +21,34 @@
     <PreferenceScreen
         android:key="ps_hardware_button"
         android:title="@string/pref_hardbtn_settings">
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_back_press"
             app:actionGroup="h_btn"
             app:actionId="btnBackPress" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_back_lpress"
             app:actionGroup="h_btn"
             app:actionId="btnBackLpress" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_serach_press"
             app:actionGroup="h_btn"
             app:actionId="btnSearchPress" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_volume_up"
             app:actionGroup="h_btn"
             app:actionId="btnVolumeUp" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_volume_down"
             app:actionGroup="h_btn"
             app:actionId="btnVolumeDown" />
         <SwitchPreference
             android:key="volume_default_playing"
             android:title="@string/pref_btn_volume_default_play" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_camera_press"
             app:actionGroup="h_btn"
             app:actionId="btnCameraPress" />
-        <jp.hazuki.yuzubrowser.ui.preference.StrToIntListPreference
+        <com.onevn.browser.ui.preference.StrToIntListPreference
             android:key="menu_btn_list_mode"
             android:title="@string/pref_btn_menu_press"
             android:summary="@string/action_open_menu"
@@ -60,7 +60,7 @@
         android:title="@string/pref_softbtn_settings">
         <PreferenceCategory
             android:title="@string/pref_basic_settings">
-            <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+            <com.onevn.browser.ui.preference.SeekbarPreference
                 android:key="swipebtn_sensitivity"
                 android:title="@string/pref_sensitivity_distance"
                 app:seekMax="500"
@@ -68,29 +68,29 @@
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/pref_action_settings">
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ToolbarActionListPrerence
+            <com.onevn.browser.legacy.settings.preference.ToolbarActionListPrerence
                 android:title="@string/pref_btn_tab_left"
                 app:actionGroup="s_btn_array"
                 app:actionId="btnTabLeft" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ToolbarActionListPrerence
+            <com.onevn.browser.legacy.settings.preference.ToolbarActionListPrerence
                 android:title="@string/pref_btn_tab_right"
                 app:actionGroup="s_btn_array"
                 app:actionId="btnTabRight" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ToolbarActionListPrerence
+            <com.onevn.browser.legacy.settings.preference.ToolbarActionListPrerence
                 android:title="@string/pref_btn_url_left"
                 app:actionGroup="s_btn_array"
                 app:actionId="btnUrlLeft" />
 
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.SoftButtonActionPreference
+            <com.onevn.browser.legacy.settings.preference.SoftButtonActionPreference
                 android:title="@string/pref_btn_url_center"
                 app:actionGroup="s_btn"
                 app:actionId="btnCenter" />
 
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ToolbarActionListPrerence
+            <com.onevn.browser.legacy.settings.preference.ToolbarActionListPrerence
                 android:title="@string/pref_btn_url_right"
                 app:actionGroup="s_btn_array"
                 app:actionId="btnUrlRight" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ToolbarActionListPrerence
+            <com.onevn.browser.legacy.settings.preference.ToolbarActionListPrerence
                 android:title="@string/pref_btn_custom"
                 app:actionGroup="s_btn_custombar"
                 app:actionId="custombar1" />
@@ -99,31 +99,31 @@
     <PreferenceScreen
         android:key="ps_tab_action"
         android:title="@string/pref_tab_action">
-        <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+        <com.onevn.browser.ui.preference.SeekbarPreference
             android:key="tab_action_sensitivity"
             android:title="@string/pref_sensitivity_distance"
             app:seekMax="500"
             app:seekMin="10" />
 
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_action_up"
             app:actionGroup="tab"
             app:actionId="tabUp" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_action_down"
             app:actionGroup="tab"
             app:actionId="tabDown" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_action_press"
             app:actionGroup="tab"
             app:actionId="tabPress" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_btn_action_lpress"
             app:actionGroup="tab"
             app:actionId="tabLPress" />
     </PreferenceScreen>
 
-    <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionListPreference
+    <com.onevn.browser.legacy.settings.preference.ActionListPreference
         android:title="@string/pref_menu_settings"
         app:actionGroup="menu"
         app:actionId="menuBrowserActivity" />
@@ -140,7 +140,7 @@
             android:title="@string/open_bookmark_new_tab"
             android:summary="@string/open_bookmark_new_tab_info"/>
 
-        <jp.hazuki.yuzubrowser.ui.preference.StrToIntListPreference
+        <com.onevn.browser.ui.preference.StrToIntListPreference
             android:dependency="open_bookmark_new_tab"
             android:defaultValue="1"
             android:key="open_bookmark_icon_action"
@@ -168,14 +168,14 @@
             android:key="gesture_line_web"
             android:title="@string/pref_gesture_line" />
 
-        <jp.hazuki.yuzubrowser.ui.preference.FloatSeekbarPreference
+        <com.onevn.browser.ui.preference.FloatSeekbarPreference
             android:key="gesture_score_web"
             android:title="@string/pref_gesture_score"
             app:denominator="10"
             app:seekMax="200"
             app:seekMin="10" />
 
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.GestureListPreference
+        <com.onevn.browser.legacy.settings.preference.GestureListPreference
             android:title="@string/pref_gesture_settings"
             app:gestureId="web"
             app:intentTitle="@string/pref_web_gesture_settings" />
@@ -183,14 +183,14 @@
     <PreferenceScreen
         android:key="ps_sub_gesture"
         android:title="@string/pref_sub_gesture_settings">
-        <jp.hazuki.yuzubrowser.ui.preference.FloatSeekbarPreference
+        <com.onevn.browser.ui.preference.FloatSeekbarPreference
             android:key="gesture_score_sub"
             android:title="@string/pref_gesture_score"
             app:denominator="10"
             app:seekMax="200"
             app:seekMin="10" />
 
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.GestureListPreference
+        <com.onevn.browser.legacy.settings.preference.GestureListPreference
             android:title="@string/pref_gesture_settings"
             app:gestureId="sub"
             app:intentTitle="@string/pref_sub_gesture_settings" />
@@ -210,12 +210,12 @@
                 android:key="flick_edge"
                 android:title="@string/pref_flick_edge" />
 
-            <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+            <com.onevn.browser.ui.preference.SeekbarPreference
                 android:key="flick_sensitivity_speed"
                 android:title="@string/pref_sensitivity_speed"
                 app:seekMax="100"
                 app:seekMin="0" />
-            <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+            <com.onevn.browser.ui.preference.SeekbarPreference
                 android:key="flick_sensitivity_distance"
                 android:title="@string/pref_sensitivity_distance"
                 app:seekMax="100"
@@ -226,11 +226,11 @@
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/pref_action_settings">
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_flick_left"
                 app:actionGroup="flick"
                 app:actionId="flickLeft" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_flick_right"
                 app:actionGroup="flick"
                 app:actionId="flickRight" />
@@ -245,12 +245,12 @@
                 android:key="webswipe_enable"
                 android:title="@string/pref_web_swipe_enable" />
 
-            <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+            <com.onevn.browser.ui.preference.SeekbarPreference
                 android:key="webswipe_sensitivity_speed"
                 android:title="@string/pref_sensitivity_speed"
                 app:seekMax="100"
                 app:seekMin="0" />
-            <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+            <com.onevn.browser.ui.preference.SeekbarPreference
                 android:key="webswipe_sensitivity_distance"
                 android:title="@string/pref_sensitivity_distance"
                 app:seekMax="100"
@@ -258,19 +258,19 @@
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/pref_action_settings">
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_btn_action_up"
                 app:actionGroup="web_swipe"
                 app:actionId="swipeUp" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_btn_action_down"
                 app:actionGroup="web_swipe"
                 app:actionId="swipeDown" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_btn_action_left"
                 app:actionGroup="web_swipe"
                 app:actionId="swipeLeft" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_btn_action_right"
                 app:actionGroup="web_swipe"
                 app:actionId="swipeRight" />
@@ -285,12 +285,12 @@
                 android:key="double_tap_flick_enable"
                 android:title="@string/pref_double_tap_flick_enable" />
 
-            <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+            <com.onevn.browser.ui.preference.SeekbarPreference
                 android:key="double_tap_flick_sensitivity_speed"
                 android:title="@string/pref_sensitivity_speed"
                 app:seekMax="100"
                 app:seekMin="0" />
-            <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+            <com.onevn.browser.ui.preference.SeekbarPreference
                 android:key="double_tap_flick_sensitivity_distance"
                 android:title="@string/pref_sensitivity_distance"
                 app:seekMax="100"
@@ -298,19 +298,19 @@
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/pref_action_settings">
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_flick_left"
                 app:actionGroup="double_tap_flick"
                 app:actionId="flickLeft" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_flick_right"
                 app:actionGroup="double_tap_flick"
                 app:actionId="flickRight" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_flick_up"
                 app:actionGroup="double_tap_flick"
                 app:actionId="flickUp" />
-            <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+            <com.onevn.browser.legacy.settings.preference.ActionPreference
                 android:title="@string/pref_flick_down"
                 app:actionGroup="double_tap_flick"
                 app:actionId="flickDown" />
@@ -324,36 +324,36 @@
             android:key="qc_enable"
             android:title="@string/pref_qc_enable" />
 
-        <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+        <com.onevn.browser.ui.preference.SeekbarPreference
             android:key="qc_rad_start"
             android:title="@string/pref_qc_rad_start"
             app:seekMax="300"
             app:seekMin="1" />
-        <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+        <com.onevn.browser.ui.preference.SeekbarPreference
             android:key="qc_rad_inc"
             android:title="@string/pref_qc_rad_inc"
             app:seekMax="300"
             app:seekMin="1" />
-        <jp.hazuki.yuzubrowser.ui.preference.SeekbarPreference
+        <com.onevn.browser.ui.preference.SeekbarPreference
             android:key="qc_slop"
             android:title="@string/pref_qc_slop"
             app:seekMax="300"
             app:seekMin="1" />
-        <jp.hazuki.yuzubrowser.ui.preference.StrToIntListPreference
+        <com.onevn.browser.ui.preference.StrToIntListPreference
             android:key="qc_position"
             android:title="@string/pref_qc_r_pos"
             android:entries="@array/pref_qc_r_pos_list"
             android:entryValues="@array/pref_qc_r_pos_values" />
 
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionListPreference
+        <com.onevn.browser.legacy.settings.preference.ActionListPreference
             android:title="@string/pref_qc_level1"
             app:actionGroup="qc"
             app:actionId="qcLevel1" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionListPreference
+        <com.onevn.browser.legacy.settings.preference.ActionListPreference
             android:title="@string/pref_qc_level2"
             app:actionGroup="qc"
             app:actionId="qcLevel2" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionListPreference
+        <com.onevn.browser.legacy.settings.preference.ActionListPreference
             android:title="@string/pref_qc_level3"
             app:actionGroup="qc"
             app:actionId="qcLevel3" />
@@ -361,25 +361,25 @@
     <PreferenceScreen
         android:key="ps_long_press"
         android:title="@string/pref_lpress_settings">
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:entries="@array/pref_lpress_link_list"
             android:entryValues="@array/pref_lpress_link_values"
             android:title="@string/pref_lpress_link"
             app:actionGroup="longpress"
             app:actionId="lpLink" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:entries="@array/pref_lpress_image_list"
             android:entryValues="@array/pref_lpress_image_values"
             android:title="@string/pref_lpress_image"
             app:actionGroup="longpress"
             app:actionId="lpImage" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:entries="@array/pref_lpress_linkimage_list"
             android:entryValues="@array/pref_lpress_linkimage_values"
             android:title="@string/pref_lpress_linkimage"
             app:actionGroup="longpress"
             app:actionId="lpImageLink" />
-        <jp.hazuki.yuzubrowser.legacy.settings.preference.ActionPreference
+        <com.onevn.browser.legacy.settings.preference.ActionPreference
             android:title="@string/pref_lpress_others"
             app:actionGroup="longpress"
             app:actionId="lpOthers" />

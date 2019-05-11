@@ -15,4 +15,4 @@
   -->
 
 <manifest
-    package="jp.hazuki.yuzubrowser.webview"/>
+    package="com.onevn.browser.webview"/>

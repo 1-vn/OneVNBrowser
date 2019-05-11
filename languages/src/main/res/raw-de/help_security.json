@@ -8,7 +8,7 @@
     "disable": "Deaktivieren",
     "disable_info": "Der Zugriff ist grundsätzlich verwehrt.",
     "sandbox": "Im Sandkasten aktivieren",
-    "sandbox_info": "Zugriff nur auf externen Speicher und /data/data/jp.hazuki.yuzubrowser/app_public_html erlauben.",
+    "sandbox_info": "Zugriff nur auf externen Speicher und /data/data/com.onevn.browser/app_public_html erlauben.",
     "enable": "Aktivieren",
     "enable_info": "Zugriff auf alle zugänglichen Pfade erlauben."
   },

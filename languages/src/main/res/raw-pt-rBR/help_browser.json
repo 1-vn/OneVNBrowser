@@ -60,7 +60,7 @@
   "unknown_scheme": "Compartilhar esquema desconhecido",
   "unknown_scheme_info": "Tente abrir url com outro app que não é suportado por um esquema (como intent: // ou twitter: //)",
   "download_dir": "Diretório de download",
-  "download_dir_info": "Especifique pasta de destino<br>Cartão SD é apenas /storage/sdcard1/Android/data/jp.hazuki.yuzubrowser/files",
+  "download_dir_info": "Especifique pasta de destino<br>Cartão SD é apenas /storage/sdcard1/Android/data/com.onevn.browser/files",
   "auto_save": "Intervalo de autossalvamento (seg.)",
   "auto_save_info": "Defina intervalo de autossalvamento (seg.)<br>Salvamento automático não é executado se é 0 seg.",
   "slow_rendering": "Renderização lenta",

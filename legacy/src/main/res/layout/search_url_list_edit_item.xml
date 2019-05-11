@@ -22,7 +22,7 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:minHeight="?android:attr/listPreferredItemHeightSmall">
 
-    <jp.hazuki.yuzubrowser.legacy.search.settings.SearchSimpleIconView
+    <com.onevn.browser.legacy.search.settings.SearchSimpleIconView
         android:id="@+id/iconColorView"
         android:layout_width="32dp"
         android:layout_height="32dp"

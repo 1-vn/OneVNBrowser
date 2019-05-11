@@ -53,7 +53,7 @@
             <requestFocus />
         </EditText>
 
-        <jp.hazuki.yuzubrowser.legacy.search.SearchButton
+        <com.onevn.browser.legacy.search.SearchButton
             android:id="@+id/searchButton"
             style="@style/ToolbarImageButton"
             android:layout_width="@dimen/general_default_size"
@@ -65,7 +65,7 @@
             android:tint="@color/white" />
     </LinearLayout>
 
-    <jp.hazuki.yuzubrowser.ui.widget.recycler.OutSideClickableRecyclerView
+    <com.onevn.browser.ui.widget.recycler.OutSideClickableRecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

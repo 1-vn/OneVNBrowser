@@ -8,7 +8,7 @@
     "disable": "Letiltva",
     "disable_info": "A hozzáférés teljesen le van tiltva a fajlokhoz.",
     "sandbox": "Sandbox mód",
-    "sandbox_info": "Hozzáférés csak külső tárolóhoz és a /data/data/jp.hazuki.yuzubrowser/app_public_html útvonalhoz.",
+    "sandbox_info": "Hozzáférés csak külső tárolóhoz és a /data/data/com.onevn.browser/app_public_html útvonalhoz.",
     "enable": "Engedélyez",
     "enable_info": "Teljes hozzáférés minden elérhető útvonalhoz."
   },

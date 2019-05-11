@@ -33,7 +33,7 @@
             android:text="@string/title"
             android:textAppearance="?android:attr/textAppearanceSmall"/>
 
-        <jp.hazuki.yuzubrowser.legacy.utils.view.CopyableTextView
+        <com.onevn.browser.legacy.utils.view.CopyableTextView
             android:id="@+id/titleTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_marginTop="16dp"/>
 
-        <jp.hazuki.yuzubrowser.legacy.utils.view.CopyableTextView
+        <com.onevn.browser.legacy.utils.view.CopyableTextView
             android:id="@+id/urlTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

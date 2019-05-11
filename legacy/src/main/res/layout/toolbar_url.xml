@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" />
 
-    <jp.hazuki.yuzubrowser.legacy.utils.view.swipebutton.SwipeTextButton
+    <com.onevn.browser.legacy.utils.view.swipebutton.SwipeTextButton
         android:id="@+id/centerUrlButton"
         style="@style/ToolbarTextButton"
         android:layout_width="0dp"

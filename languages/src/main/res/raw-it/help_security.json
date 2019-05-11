@@ -8,7 +8,7 @@
     "disable": "Disabilità",
     "disable_info": "L'accesso è completamente proibito.",
     "sandbox": "Abilita nella sandbox",
-    "sandbox_info": "Consenti l'accesso solo nella memoria esterna e /data/data/jp.hazuki.yuzubrowser/app_public_html.",
+    "sandbox_info": "Consenti l'accesso solo nella memoria esterna e /data/data/com.onevn.browser/app_public_html.",
     "enable": "Abilita",
     "enable_info": "Consenti l'accesso a tutti i percorsi accessibili."
   },
