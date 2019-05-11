@@ -3,7 +3,7 @@
 
 # How to contribute
 
-Great! OneVN Browser continues to improve from the contributions of its users. This could include code contributions, feature requests, and bug fixes for [OneVN Browser](https://github.com/hazuki0x0/OneVNBrowser).
+Great! OneVN Browser continues to improve from the contributions of its users. This could include code contributions, feature requests, and bug fixes for [OneVN Browser](https://github.com/1-vn/OneVNBrowser).
 Thank you for your interest in contributing to OneVN Browser. I appreciate all help with finding and fixing bugs, making performance improvements, and other tasks. Every contribution is helpful and I thank you for your effort. To ensure the process of contributing is as smooth as possible, here are a few guidelines for you to follow.
 
 - Remember to Create an Issue before submitting any major changes like a new feature or UI changes etc. Changes like the addition of new language or spelling mistakes don't require issue creation.
@@ -36,7 +36,7 @@ When submitting a feature request, please make a single issue for each feature r
 
 ### I'm a developer (Code Contributions).
 
-Fantastic. It's very rare for us to deny pull requests. Open a ticket to let other's know what you are working on along with a description. Fork the repository which in this case is [OneVN Browser](https://github.com/hazuki0x0/OneVNBrowser), make your desired changes, and send a pull request.
+Fantastic. It's very rare for us to deny pull requests. Open a ticket to let other's know what you are working on along with a description. Fork the repository which in this case is [OneVN Browser](https://github.com/1-vn/OneVNBrowser), make your desired changes, and send a pull request.
 
 Please refrain from reformatting or rearranging the code. It makes it very hard to identify changes
 in pull requests. 
@@ -80,13 +80,13 @@ Here's a detailed content on how to [Create a pull request](https://help.github.
 
 Simply put, the way to create a Pull request is first to; 
 
-1. Fork the repository of the project which in this case is [OneVN Browser](https://github.com/hazuki0x0/OneVNBrowser)
+1. Fork the repository of the project which in this case is [OneVN Browser](https://github.com/1-vn/OneVNBrowser)
 2. Commit modifications and changes to your fork
 3. Send a [pull request](https://help.github.com/articles/creating-a-pull-request) to the original repository you forked your repository from in step 1
 
 ## Bug Reports
 
-Sorry to hear about your troubles. I try to make the app free of bugs and errors but, the app is not 100% bug proof. That's why bug reports are useful for this project when you encounter them. Before filing a bug report; check the issue tracker if the bug hasn't been reported by other users. If it has been reported before, it is likely to be in [opened issues](https://github.com/hazuki0x0/OneVNBrowser/issues?q=is%3Aopen+is%3Aissue).  You can also check out [closed issues](https://github.com/hazuki0x0/OneVNBrowser/issues?q=is%3Aissue+is%3Aclosed).
+Sorry to hear about your troubles. I try to make the app free of bugs and errors but, the app is not 100% bug proof. That's why bug reports are useful for this project when you encounter them. Before filing a bug report; check the issue tracker if the bug hasn't been reported by other users. If it has been reported before, it is likely to be in [opened issues](https://github.com/1-vn/OneVNBrowser/issues?q=is%3Aopen+is%3Aissue).  You can also check out [closed issues](https://github.com/1-vn/OneVNBrowser/issues?q=is%3Aissue+is%3Aclosed).
  
 
 So, if it's a new issue; please include the following:
@@ -104,7 +104,7 @@ developer,  you can fork OneVN Browser and fix it yourself.
 
 For further inquiries, you can contact the developer by opening an issue on the repository.
 
-You can also check out the developer's profile [here](https://github.com/hazuki0x0).
+You can also check out the developer's profile [here](https://github.com/1-vn).
 
 
 ***Thank you for your interest in contributing to OneVN Browser. I appreciate all the help with finding and fixing bugs, making performance improvements, and other tasks. Every contribution is helpful and I thank you for your effort.***

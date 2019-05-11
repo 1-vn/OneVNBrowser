@@ -11,7 +11,7 @@ function getTranslation(page, callback) {
         })
         return d.promise();
       }(),
-      $.getJSON("locale/en/" + page + ".json")
+      $.getJSON("locale/vi/" + page + ".json")
     )
     .done(function(translation, fallback) {
       callback(translation, fallback[0]);

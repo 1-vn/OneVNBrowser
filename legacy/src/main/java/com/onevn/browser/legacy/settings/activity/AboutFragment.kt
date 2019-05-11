@@ -59,7 +59,7 @@ class AboutFragment : OneVNPreferenceFragment() {
         findPreference("privacy_policy").setOnPreferenceClickListener {
             startActivity(intentFor(Constants.activity.MAIN_BROWSER).apply {
                 action = Constants.intent.ACTION_OPEN_DEFAULT
-                data = Uri.parse("https://github.com/hazuki0x0/OneVNBrowser/wiki/Privacy-policy")
+                data = Uri.parse("https://github.com/1-vn/OneVNBrowser/wiki/Privacy-policy")
             })
             true
         }

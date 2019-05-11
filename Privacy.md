@@ -51,7 +51,7 @@ When some actions are performed, some data(usage data) may be collected by the s
 
 ## Crash reports sending
 
-OneVN Browser is stable and works fine but you may still experience few errors and crashes. The information about these crashes is important to us so the issues can be fixed immediately and the software is running efficiently again. Although the developer is able to get reports when the app crashes, you can also speed up the process by informing the developer. If you encounter a bug during the use of this software, please open an [issue](https://github.com/hazuki0x0/OneVNBrowser/issues/new) on GitHub and it will be fixed in due time. When submitting a crash report, please provide a logcat to help the developer pinpoint the cause of the crash quickly and fix it accordingly.
+OneVN Browser is stable and works fine but you may still experience few errors and crashes. The information about these crashes is important to us so the issues can be fixed immediately and the software is running efficiently again. Although the developer is able to get reports when the app crashes, you can also speed up the process by informing the developer. If you encounter a bug during the use of this software, please open an [issue](https://github.com/1-vn/OneVNBrowser/issues/new) on GitHub and it will be fixed in due time. When submitting a crash report, please provide a logcat to help the developer pinpoint the cause of the crash quickly and fix it accordingly.
 
 ---
 
@@ -101,5 +101,5 @@ OneVN browser is created with the intention of providing a more efficient way of
 
 ## Contact
 
-Contributions to this project are welcomed. Contributions, suggestions or bug reports and fixes can be made by opening an issue or creating pull requests. Read the contributor's guidelines [here](https://github.com/hazuki0x0/OneVNBrowser/blob/dev/README.md#contributing) to get started.
-If you wish to contact the developer directly to share an idea, to request a feature or to make further inquiries about the functionalities and operations of the OneVN Browser software or, you have any questions regarding this Privacy Policy or, the practices of this software, please contact the developer by opening an [issue](https://github.com/hazuki0x0/OneVNBrowser/issues/new) on Github.
+Contributions to this project are welcomed. Contributions, suggestions or bug reports and fixes can be made by opening an issue or creating pull requests. Read the contributor's guidelines [here](https://github.com/1-vn/OneVNBrowser/blob/dev/README.md#contributing) to get started.
+If you wish to contact the developer directly to share an idea, to request a feature or to make further inquiries about the functionalities and operations of the OneVN Browser software or, you have any questions regarding this Privacy Policy or, the practices of this software, please contact the developer by opening an [issue](https://github.com/1-vn/OneVNBrowser/issues/new) on Github.
