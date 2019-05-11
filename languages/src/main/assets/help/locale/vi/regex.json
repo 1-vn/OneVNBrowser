@@ -1,6 +1,6 @@
 {
   "title": "Pattern specification",
-  "basic": "Basic",
+  "basic": "Cơ bản",
   "wildcard": {
     "title": "Wildcard",
     "sharp_info": "Match a single numeric(0-9) character (interpreted as '\\d')",

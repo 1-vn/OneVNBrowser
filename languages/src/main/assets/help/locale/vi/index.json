@@ -1,12 +1,12 @@
 {
-  "help": "OneVN Browser settings help",
+  "help": "Trợ giúp thiết lập cho OneVN Browser",
   "comment": "Thank you for using OneVN browser!<br>I hope this help will be of service to you.<br><br>",
-  "browser": "Browser settings",
-  "page": "Page settings",
-  "privacy": "Privacy settings",
-  "ui": "UI settings",
+  "browser": "Thiết lập trình duyệt",
+  "page": "Thiết lập trang",
+  "privacy": "Thiết lập riêng tư",
+  "ui": "Thiết lập UI",
   "action": "Action settings",
-  "action_list": "Actions list",
+  "action_list": "Danh sách thao tác",
   "regex": "Pattern(Wildcard) specification",
   "faq": "FAQ"
 }

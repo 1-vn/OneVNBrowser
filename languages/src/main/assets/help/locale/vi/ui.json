@@ -1,6 +1,6 @@
 {
-  "title": "UI Settings",
-  "theme": "Theme settings",
+  "title": "Thiết lập UI",
+  "theme": "Thiết lập giao diện",
   "theme_info": "You can choose built-in and your own theme<br>You can also use the theme of the mikan browser<br>Custom theme is inside the internal storage<br>Example (Please make appropriate changes):<code>/sdcard/OneVNBrowser/theme/**theme name**/theme.json</code><br>Please install so that it becomes",
   "toolbar": "Toolbar settings",
   "font_size": "Font size settings",

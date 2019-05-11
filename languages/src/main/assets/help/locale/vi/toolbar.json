@@ -1,5 +1,5 @@
 {
-  "title": "Toolbar settings",
+  "title": "Thiết lập thanh công cụ",
   "snap": "Snap Toolbar",
   "snap_info": "Upon a scroll ending, if the toolbar is only partially visible then it will be snapped and scrolled to it's closest edge.<br>For example, if the toolbar only has it's bottom 25% displayed, it will be scrolled off screen completely. Conversely, if it's bottom 75% is visible then it will be scrolled fully into toolbar.",
   "alpha_bottom": "Alpha channel of bottom toolbar",

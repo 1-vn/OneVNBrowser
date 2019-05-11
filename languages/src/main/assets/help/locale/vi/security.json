@@ -1,5 +1,5 @@
 {
-  "title": "Security settings",
+  "title": "Cài đặt bảo mật",
   "content_access": "Allow content access",
   "content_access_info": "Allow access of URL starting with content://",
   "local_file": "Local file access settings",
@@ -15,13 +15,13 @@
   "insecure": "Insecure content settings on https",
   "insecure_info": {
     "info": "Allows to load scripts and images etc. on http on https page",
-    "never": "Never allow",
+    "never": "Không bao giờ cho phép",
     "never_info": "It does not load",
     "compatibility": "Compatibility",
     "compatibility_info": "Decide automatically whether to load<br>Judgment may change depending on WebView/Chrome update",
     "allow": "Always allow",
-    "allow_info": "Load all contents"
+    "allow_info": "Tải tất cả nội dung"
   },
-  "security_warn": "Show security warnings",
+  "security_warn": "Hiển thị cảnh báo bảo mật",
   "security_warn_info": "Display a warning if there is a problem with SSL certificate and confirm whether to continue loading.<br>If it is invalid, the load is automatically canceled."
 }
