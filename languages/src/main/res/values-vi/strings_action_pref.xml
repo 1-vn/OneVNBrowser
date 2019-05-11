@@ -17,13 +17,13 @@
 
 <resources>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Thiết lập</string>
     <string name="action_tab_loop">Tab loop</string>
     <string name="action_action_cant_back">Action on no histories</string>
     <string name="action_finish_alert">Show alert</string>
     <string name="action_finish_close_tab">Close tab on finish</string>
     <string name="action_action_cant_close_tab">Action on last tab</string>
-    <string name="action_select_menu">Select menu</string>
+    <string name="action_select_menu">Chọn trình đơn</string>
     <string name="action_target_tab">Target tab</string>
 
     <string-array name="action_start_activity_template">

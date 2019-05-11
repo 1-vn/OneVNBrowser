@@ -18,6 +18,7 @@
 <resources translatable="false">
     <string-array name="language_list">
         <item>Default</item>
+        <item>Vietnamese</item>
         <item>Chinese(Simplified)</item>
         <item>English</item>
         <item>German</item>
@@ -33,6 +34,7 @@
 
     <string-array name="language_value">
         <item/>
+        <item>vi</item>
         <item>zh-CN</item>
         <item>en</item>
         <item>de</item>
